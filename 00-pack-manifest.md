@@ -11,7 +11,7 @@ fpf_edition: v1.0
 spf_template_checked: 2026-07-28
 status: draft
 created: 2026-07-28
-last_updated: 2026-07-28
+last_updated: 2026-08-16
 maintainers:
   - name: Workspace owner
     contact: local
@@ -54,7 +54,7 @@ Pack отвечает на вопросы:
 
 | Section | Count | Status |
 |---|---:|---|
-| Distinctions | 10 | draft |
+| Distinctions | 11 | draft |
 | Roles | 7 | draft |
 | Objects of attention | 9 | draft |
 | Methods | 8 | draft |
@@ -100,5 +100,6 @@ Pack отвечает на вопросы:
 
 | Date | Change | Author |
 |---|---|---|
+| 2026-08-16 | Added evidence-based distinction between AI-supported performance and acquired capability; refined AI SoTA | Codex |
 | 2026-07-28 | Initial DPF/Pack built from local source corpus | Codex |
 
