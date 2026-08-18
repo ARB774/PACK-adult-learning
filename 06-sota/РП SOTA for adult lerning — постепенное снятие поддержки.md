@@ -1,12 +1,12 @@
 ---
 name: РП SOTA for adult lerning — постепенное снятие поддержки
-status: pilot
+status: accepted
 topic: Разобранные примеры и переход к самостоятельному выполнению
 created: 2026-08-18
 pack_version_reviewed: 0.1.0
 fpf_patterns: [F.1, F.2, F.3, F.9]
 target_entities: [AL.D.004, AL.D.011, AL.M.002, AL.M.003, AL.M.004, AL.WP.003, AL.WP.004, AL.WP.006]
-integration_status: proposal
+integration_status: integrated
 ---
 
 # РП SOTA for adult lerning — постепенное снятие поддержки
