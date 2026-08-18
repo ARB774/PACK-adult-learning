@@ -44,6 +44,7 @@ flowchart LR
 | Управлять когнитивными требованиями и поддержкой | AL.D.004, AL.D.011, AL.SOTA.011 | AL.M.002–004, AL.WP.003, AL.WP.004, AL.WP.006 |
 | Перевести от примера к самостоятельному действию | AL.D.004, AL.D.011, AL.SOTA.012 | AL.M.002, AL.M.004, AL.WP.003, AL.WP.004, AL.WP.006 |
 | Спроектировать продуктивный запрос помощи | AL.OA.007, AL.D.006, AL.SOTA.013 | AL.M.002, AL.M.004, AL.M.005, AL.WP.003, AL.WP.006 |
+| Обеспечить безопасный вопрос, предупреждение и эскалацию | AL.OA.007, AL.SOTA.014 | AL.M.004, AL.M.005, AL.WP.006, AL.FM.008 |
 | Различить эффект ИИ и освоение | AL.D.011 | AL.SOTA.006, AL.WP.005, AL.WP.008 |
 | Спроектировать основу программы | AL.M.001 → AL.WP.001/002 | AL.M.002 → AL.WP.003/004 |
 | Добавить индивидуальную траекторию | AL.M.004, AL.M.005 | AL.WP.006 |
@@ -65,6 +66,7 @@ flowchart LR
 9. **Cognitive-demands gate:** существенная сложность, лишние требования, реалистичность и временная поддержка различены; самостоятельная способность не выводится только из выполнения с подсказкой.
 10. **Support-transfer gate:** помощь соответствует конкретному выполнению, допускает снятие и возврат, а передача ответственности подтверждается самостоятельной контрольной пробой.
 11. **Help-seeking gate:** для затруднения заданы доступные источники, минимально достаточные уровни помощи и условия немедленной эскалации; после помощи участник перерабатывает ответ и выполняет новую пробу, а качество не выводится из числа вопросов.
+12. **Psychological-safety gate:** реальная реакция на вопрос, ошибку и предупреждение не унижает добросовестного участника; для угрозы заданы адресат с полномочиями, срок подтверждения, следующий уровень и возврат результата, а предметные стандарты и ответственность сохранены.
 
 ## Update log
 
@@ -72,6 +74,7 @@ flowchart LR
 |---|---|
 | 2026-08-18 | Integrated AL.SOTA.012 into example-to-action transition, adaptive support and AI target modes |
 | 2026-08-18 | Integrated AL.SOTA.013 into self-regulation, tutoring, help-source selection, escalation and AI-help modes |
+| 2026-08-18 | Integrated AL.SOTA.014 into psychological safety, response to questions, safety voice and closed-loop escalation |
 | 2026-08-18 | Integrated AL.SOTA.011 into learning-cycle, case, adaptive-support and cognitive-demands navigation |
 | 2026-08-18 | Integrated AL.SOTA.010 into learning-cycle, task, evidence and retention navigation |
 | 2026-08-17 | Integrated AL.SOTA.009 into feedback navigation and safety gate |

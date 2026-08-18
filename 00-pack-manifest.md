@@ -61,7 +61,7 @@ Pack отвечает на вопросы:
 | Work products | 8 | draft |
 | Failure modes | 10 | draft |
 | Characteristics | 7 | draft |
-| SoTA annotations/source groups | 13 | draft |
+| SoTA annotations/source groups | 14 | draft |
 | Maps | 1 | draft |
 
 ## Entity index
@@ -102,6 +102,7 @@ Pack отвечает на вопросы:
 |---|---|---|
 | 2026-08-18 | Accepted claims on worked examples, conditional and reversible fading, component-level criteria, transfer of responsibility and AI support modes; added AL.SOTA.012 | Codex |
 | 2026-08-18 | Accepted all claims on productive help-seeking, avoidance, premature hints, source choice, escalation and AI answer substitution; added AL.SOTA.013 | Codex |
+| 2026-08-18 | Accepted all claims on psychological safety, leader response, warning signals, closed-loop escalation and the hypothetical AI first-contact channel; added AL.SOTA.014 | Codex |
 | 2026-08-18 | Accepted claims on cognitive load, worked examples, fading support, coherent presentation and supported-performance boundaries; added AL.SOTA.011 | Codex |
 | 2026-08-18 | Accepted evidence-based claims on retrieval practice, retention, corrective attempts and boundaries of transfer; added AL.SOTA.010 | Codex |
 | 2026-08-17 | Accepted evidence-based claims on feedback effects, goal alignment and next-action use; added AL.SOTA.009 | Codex |
