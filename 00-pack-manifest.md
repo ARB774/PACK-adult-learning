@@ -7,7 +7,8 @@ pack_id: AL
 pack_name: Проектирование обучения взрослых и программ ДПО
 pack_name_en: Adult Learning and Continuing Professional Education Design
 version: 0.1.0
-fpf_edition: v1.0
+fpf_edition: 3d098629dc218572089f1890080c17d6f1d9a867
+fpf_edition_date: 2026-08-16
 spf_template_checked: 2026-07-28
 status: draft
 created: 2026-07-28
