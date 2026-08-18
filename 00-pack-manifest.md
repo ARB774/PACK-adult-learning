@@ -11,7 +11,7 @@ fpf_edition: v1.0
 spf_template_checked: 2026-07-28
 status: draft
 created: 2026-07-28
-last_updated: 2026-08-17
+last_updated: 2026-08-18
 maintainers:
   - name: Workspace owner
     contact: local
@@ -61,7 +61,7 @@ Pack отвечает на вопросы:
 | Work products | 8 | draft |
 | Failure modes | 10 | draft |
 | Characteristics | 7 | draft |
-| SoTA annotations/source groups | 9 | draft |
+| SoTA annotations/source groups | 10 | draft |
 | Maps | 1 | draft |
 
 ## Entity index
@@ -100,6 +100,7 @@ Pack отвечает на вопросы:
 
 | Date | Change | Author |
 |---|---|---|
+| 2026-08-18 | Accepted evidence-based claims on retrieval practice, retention, corrective attempts and boundaries of transfer; added AL.SOTA.010 | Codex |
 | 2026-08-17 | Accepted evidence-based claims on feedback effects, goal alignment and next-action use; added AL.SOTA.009 | Codex |
 | 2026-08-17 | Accepted evidence-based claims on workplace transfer, work-environment conditions and transfer measurement; added AL.SOTA.008 | Codex |
 | 2026-08-16 | Added evidence-based distinction between AI-supported performance and acquired capability; refined AI SoTA | Codex |

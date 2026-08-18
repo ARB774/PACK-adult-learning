@@ -1,12 +1,12 @@
 ---
 name: РП SOTA for adult lerning — практика воспроизведения по памяти
-status: pilot
+status: accepted
 topic: Практика воспроизведения по памяти в обучении взрослых
 created: 2026-08-17
 pack_version_reviewed: 0.1.0
 fpf_patterns: [F.1, F.2, F.3, F.9]
 target_entities: [AL.D.004, AL.D.006, AL.D.007, AL.M.002, AL.M.003, AL.WP.003, AL.WP.004, AL.WP.005]
-integration_status: proposal
+integration_status: integrated
 ---
 
 # РП SOTA for adult lerning — практика воспроизведения по памяти

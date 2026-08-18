@@ -4,7 +4,7 @@ name: Карта проектирования обучения взрослых
 scope: full-pack
 summary: Навигация от запроса взрослого через учебный опыт к переносу и доказательству эффекта.
 created: 2026-07-28
-last_updated: 2026-08-17
+last_updated: 2026-08-18
 generated: false
 ---
 
@@ -40,6 +40,7 @@ flowchart LR
 | Понять границы домена | `01A-bounded-context.md` | `ontology.md` |
 | Не путать ключевые понятия | `01B-distinctions.md` | `05-failure-modes/failure-modes.md` |
 | Спроектировать обратную связь | AL.D.006, AL.SOTA.009 | AL.M.002, AL.WP.004, AL.WP.005 |
+| Спроектировать воспроизведение по памяти | AL.D.004, AL.D.006, AL.SOTA.010 | AL.M.002, AL.M.003, AL.WP.003–005 |
 | Различить эффект ИИ и освоение | AL.D.011 | AL.SOTA.006, AL.WP.005, AL.WP.008 |
 | Спроектировать основу программы | AL.M.001 → AL.WP.001/002 | AL.M.002 → AL.WP.003/004 |
 | Добавить индивидуальную траекторию | AL.M.004, AL.M.005 | AL.WP.006 |
@@ -57,11 +58,13 @@ flowchart LR
 5. **Transfer gate:** среда применения и ответственность сторон подтверждены, а вывод о переносе опирается не только на самоотчёт и учитывает тип рабочего действия.
 6. **Evidence gate:** сила вывода не превышает качество данных.
 7. **AI-support gate:** режим доступа к ИИ зафиксирован, а поддержанная результативность не выдаётся за освоенную способность.
+8. **Retention gate:** если требуется долговременное сохранение знания, архитектура включает воспроизведение без доступа к образцу, коррекцию ошибки и новую попытку; перенос в рабочую практику проверяется отдельно.
 
 ## Update log
 
 | Date | Change |
 |---|---|
+| 2026-08-18 | Integrated AL.SOTA.010 into learning-cycle, task, evidence and retention navigation |
 | 2026-08-17 | Integrated AL.SOTA.009 into feedback navigation and safety gate |
 | 2026-08-17 | Integrated AL.SOTA.008 into transfer navigation and evidence gate |
 | 2026-08-16 | Added navigation and quality gate for AL.D.011; linked AL.SOTA.006 to evidence products |
