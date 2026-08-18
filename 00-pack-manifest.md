@@ -9,6 +9,13 @@ pack_name_en: Adult Learning and Continuing Professional Education Design
 version: 0.1.0
 fpf_edition: 3d098629dc218572089f1890080c17d6f1d9a867
 fpf_edition_date: 2026-08-16
+architecture_decision: DPF-DRR.md
+pilot_edition_ref: DPF-EDITION@pilot-2026-08-18
+pilot_edition_record: DPF-EDITION.md
+relation_maintenance_record: DPF-PFR.md
+pilot_selected_patterns: [AL.P.001, AL.P.002]
+public_name: not_selected
+publication_occurrence: not_asserted
 spf_template_checked: 2026-07-28
 status: draft
 created: 2026-07-28
