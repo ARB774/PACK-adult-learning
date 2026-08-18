@@ -16,6 +16,8 @@ relation_maintenance_record: DPF-PFR.md
 pilot_selected_patterns: [AL.P.001, AL.P.002]
 public_name: not_selected
 publication_occurrence: not_asserted
+pilot_evaluation_status: admissibleForDeclaredDPFUse
+pilot_evaluation_floor: 3
 spf_template_checked: 2026-07-28
 status: draft
 created: 2026-07-28
