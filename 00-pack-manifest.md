@@ -10,10 +10,10 @@ version: 0.1.0
 fpf_edition: 3d098629dc218572089f1890080c17d6f1d9a867
 fpf_edition_date: 2026-08-16
 architecture_decision: DPF-DRR.md
-pilot_edition_ref: DPF-EDITION@pilot-2026-08-19
+pilot_edition_ref: DPF-EDITION@pilot-2026-08-19.2
 pilot_edition_record: DPF-EDITION.md
 relation_maintenance_record: DPF-PFR.md
-pilot_selected_patterns: [AL.P.001, AL.P.002, AL.P.003, AL.P.004]
+pilot_selected_patterns: [AL.P.001, AL.P.002, AL.P.003, AL.P.004, AL.P.005]
 public_name: not_selected
 publication_occurrence: not_asserted
 pilot_evaluation_status: admissibleForDeclaredDPFUse
