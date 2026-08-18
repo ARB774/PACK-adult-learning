@@ -61,7 +61,7 @@ Pack отвечает на вопросы:
 | Work products | 8 | draft |
 | Failure modes | 10 | draft |
 | Characteristics | 7 | draft |
-| SoTA annotations/source groups | 15 | draft |
+| SoTA annotations/source groups | 16 | draft |
 | Maps | 1 | draft |
 
 ## Entity index
@@ -100,6 +100,7 @@ Pack отвечает на вопросы:
 
 | Date | Change | Author |
 |---|---|---|
+| 2026-08-18 | Accepted all claims on measuring incident learning, implementation, sustainability, recurrence, transfer and AI-assisted incident analysis; added AL.SOTA.016 | Codex |
 | 2026-08-18 | Accepted claims on worked examples, conditional and reversible fading, component-level criteria, transfer of responsibility and AI support modes; added AL.SOTA.012 | Codex |
 | 2026-08-18 | Accepted all claims on productive help-seeking, avoidance, premature hints, source choice, escalation and AI answer substitution; added AL.SOTA.013 | Codex |
 | 2026-08-18 | Accepted all claims on psychological safety, leader response, warning signals, closed-loop escalation and the hypothetical AI first-contact channel; added AL.SOTA.014 | Codex |
