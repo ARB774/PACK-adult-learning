@@ -10,7 +10,7 @@ version: 0.1.0
 fpf_edition: 3d098629dc218572089f1890080c17d6f1d9a867
 fpf_edition_date: 2026-08-16
 architecture_decision: DPF-DRR.md
-pilot_edition_ref: DPF-EDITION@pilot-2026-08-19.7
+pilot_edition_ref: DPF-EDITION@pilot-2026-08-19.8
 pilot_edition_record: DPF-EDITION.md
 relation_maintenance_record: DPF-PFR.md
 pilot_selected_patterns: [AL.P.001, AL.P.002, AL.P.003, AL.P.004, AL.P.005, AL.P.006, AL.P.007, AL.P.008, AL.P.009]
@@ -71,7 +71,7 @@ Pack отвечает на вопросы:
 | Work products | 8 | draft |
 | Failure modes | 10 | draft |
 | Characteristics | 7 | draft |
-| SoTA annotations/source groups | 16 | draft |
+| SoTA annotations/source groups | 18 | draft |
 | Maps | 1 | draft |
 
 ## Entity index
@@ -110,6 +110,7 @@ Pack отвечает на вопросы:
 
 | Date | Change | Author |
 |---|---|---|
+| 2026-08-19 | Integrated AL.SOTA.018 into adaptive trajectory, tutoring, work-product and failure-mode guidance; issued pilot edition .8 | Codex |
 | 2026-08-19 | Integrated AL.SOTA.017 into request diagnosis, solution selection, work products and pilot edition .7 | Codex |
 | 2026-08-18 | Accepted all claims on measuring incident learning, implementation, sustainability, recurrence, transfer and AI-assisted incident analysis; added AL.SOTA.016 | Codex |
 | 2026-08-18 | Accepted claims on worked examples, conditional and reversible fading, component-level criteria, transfer of responsibility and AI support modes; added AL.SOTA.012 | Codex |
