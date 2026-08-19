@@ -2,13 +2,13 @@
 
 ## 1. Назначение
 
-Файл содержит только отношения и записи, для которых существует конкретная задача сопровождения пилотной редакции `DPF-EDITION@pilot-2026-08-19.6`.
+Файл содержит только отношения и записи, для которых существует конкретная задача сопровождения пилотной редакции `DPF-EDITION@pilot-2026-08-19.7`.
 
 Идентификатор, строка или соседство записей не создают отношение. Сначала формулируется прямое предметное утверждение; обслуживающая запись представляет его для проверки влияния обновления.
 
 ## 2. Прямая зависимость от FPF
 
-`DPF-EDITION@pilot-2026-08-19.6` использует правила авторинга, видов, отношений, качества и пакетной оценки из FPF Левенчука в коммите `3d098629dc218572089f1890080c17d6f1d9a867` как необходимые ограничения для пилотного DPF-авторинга и проверки.
+`DPF-EDITION@pilot-2026-08-19.7` использует правила авторинга, видов, отношений, качества и пакетной оценки из FPF Левенчука в коммите `3d098629dc218572089f1890080c17d6f1d9a867` как необходимые ограничения для пилотного DPF-авторинга и проверки.
 
 Без этих правил либо после их содержательно значимого изменения утверждения о соответствии `E.8`, результатах `E.21`, границах предметных видов и пакетной оценке не могут оставаться текущими без повторной проверки. Поэтому пилотная редакция зависит от указанного содержания точной редакции FPF для авторинга и оценки.
 
@@ -17,11 +17,11 @@ FPF Core не зависит от этой редакции. Совместим�
 ## 3. FrameworkEditionDependencyRecord
 
 ```yaml
-FrameworkEditionDependencyRecord@DPF-EDITION-pilot-2026-08-19.6:
+FrameworkEditionDependencyRecord@DPF-EDITION-pilot-2026-08-19.7:
   subjectAssertionRef: DPF-PFR:2
   dependencyPredicateClaimRef: E.4.PFR:3.4-framework-edition-dependency-predicate
   directionConstraintClaimRef: E.5.3-domain-to-Core-direction-and-Core-acyclicity
-  dependentEditionRef: DPF-EDITION@pilot-2026-08-19.6
+  dependentEditionRef: DPF-EDITION@pilot-2026-08-19.7
   reliedOnEditionRef: FPF@3d098629dc218572089f1890080c17d6f1d9a867
   reliedOnContentRefs:
     - E.4.DPF
@@ -66,7 +66,7 @@ FrameworkEditionDependencyRecord@DPF-EDITION-pilot-2026-08-19.6:
 
 ## 5. Граница редакций
 
-`DPF-EDITION@pilot-2026-08-18`, `DPF-EDITION@pilot-2026-08-18.2`, `DPF-EDITION@pilot-2026-08-19`, `DPF-EDITION@pilot-2026-08-19.2`, `DPF-EDITION@pilot-2026-08-19.3`, `DPF-EDITION@pilot-2026-08-19.4`, `DPF-EDITION@pilot-2026-08-19.5` и `DPF-EDITION@pilot-2026-08-19.6` являются разными точными эпистемами: в каждую следующую добавлялся один паттерн — `AL.P.003`, `AL.P.004`, `AL.P.005`, `AL.P.006`, `AL.P.007`, `AL.P.008`, затем `AL.P.009`. Положительное `EpistemeEditionRelation` между ними пока не заявляется, потому что отдельное основание исторической непрерывности и требуемые FPF факты ревизионной работы не установлены.
+`DPF-EDITION@pilot-2026-08-18`, `DPF-EDITION@pilot-2026-08-18.2`, `DPF-EDITION@pilot-2026-08-19`, `DPF-EDITION@pilot-2026-08-19.2`, `DPF-EDITION@pilot-2026-08-19.3`, `DPF-EDITION@pilot-2026-08-19.4`, `DPF-EDITION@pilot-2026-08-19.5`, `DPF-EDITION@pilot-2026-08-19.6` и `DPF-EDITION@pilot-2026-08-19.7` являются разными точными эпистемами. В редакциях до `.6` последовательно добавлялись `AL.P.003–009`; редакция `.7` сохраняет девять паттернов, но интегрирует принятый `AL.SOTA.017` в `AL.P.009` и обеспечивающее знание. Положительное `EpistemeEditionRelation` между ними пока не заявляется, потому что отдельное основание исторической непрерывности и требуемые FPF факты ревизионной работы не установлены.
 
 Git-история сохраняет происхождение файлов, но сама по себе не доказывает тождество эпистем, продолжение редакции, совместимость или замещение. Эти отношения могут быть заявлены позже только при наличии отдельной задачи и достаточного основания.
 
@@ -86,12 +86,12 @@ Git-история сохраняет происхождение файлов, �
 ## 7. FrameworkPackageManifest
 
 ```yaml
-FrameworkPackageManifest@DPF-EDITION-pilot-2026-08-19.6:
-  frameworkEditionRef: DPF-EDITION@pilot-2026-08-19.6
+FrameworkPackageManifest@DPF-EDITION-pilot-2026-08-19.7:
+  frameworkEditionRef: DPF-EDITION@pilot-2026-08-19.7
   selectedPatternSetResultRef: DPF-EDITION:3
   relationRecordRefs: []
   dependencyAndEditionRecordRefs:
-    - FrameworkEditionDependencyRecord@DPF-EDITION-pilot-2026-08-19.6
+    - FrameworkEditionDependencyRecord@DPF-EDITION-pilot-2026-08-19.7
   editionStatus: admissibleForDeclaredDPFUse
   deprecationOrSupersessionRefs: []
   sourcePackRefs:
@@ -109,6 +109,7 @@ FrameworkPackageManifest@DPF-EDITION-pilot-2026-08-19.6:
     - РП Миграция PACK-adult-learning с SPF на DPF FPF.md:22
     - РП Миграция PACK-adult-learning с SPF на DPF FPF.md:23
     - РП Миграция PACK-adult-learning с SPF на DPF FPF.md:24
+    - РП Миграция PACK-adult-learning с SPF на DPF FPF.md:25
   refreshPlanOrCurrentnessRefs:
     - DPF-EDITION:9
   firstEntryCarrierRefs:

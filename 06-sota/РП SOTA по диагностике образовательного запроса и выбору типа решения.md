@@ -5,7 +5,7 @@ topic: различение учебного, мотивационного, ср
 created: 2026-08-19
 pack_version_reviewed: 0.1.0-draft
 target_entities: [AL.P.009, AL.M.001, AL.WP.001, AL.WP.002, AL.D.003, AL.D.004, AL.FM.002, AL.FM.003]
-integration_status: accepted-awaiting-integration
+integration_status: integrated
 accepted_claims: [STH.NA.CLAIM.001, STH.NA.CLAIM.002, STH.NA.CLAIM.003, STH.NA.CLAIM.004, STH.NA.CLAIM.005, STH.NA.CLAIM.006, STH.NA.CLAIM.007, STH.NA.CLAIM.008, STH.NA.CLAIM.009, STH.NA.CLAIM.010]
 ---
 
@@ -155,4 +155,4 @@ accepted_claims: [STH.NA.CLAIM.001, STH.NA.CLAIM.002, STH.NA.CLAIM.003, STH.NA.C
 
 ## 11. Решение по циклу
 
-Все `STH.NA.CLAIM.001–010` приняты владельцем Pack 19 августа 2026 года с сохранением статусов и границ. Интеграция в `AL.P.009`, `AL.M.001`, `AL.WP.001–002`, различения и карту выполняется отдельным действием; до него основные сущности не считаются обновлёнными этим циклом.
+Все `STH.NA.CLAIM.001–010` приняты владельцем Pack 19 августа 2026 года с сохранением статусов и границ и интегрированы в `AL.P.009`, `AL.M.001`, `AL.WP.001–002`, `AL.D.003` и карту домена. Утверждение `STH.NA.CLAIM.010` остаётся гипотезой и не используется как доказанный критерий качества диагностики.
