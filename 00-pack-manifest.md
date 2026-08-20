@@ -10,10 +10,10 @@ version: 0.1.0
 fpf_edition: 3d098629dc218572089f1890080c17d6f1d9a867
 fpf_edition_date: 2026-08-16
 architecture_decision: DPF-DRR.md
-pilot_edition_ref: DPF-EDITION@pilot-2026-08-19.8
+pilot_edition_ref: DPF-EDITION@pilot-2026-08-20.9
 pilot_edition_record: DPF-EDITION.md
 relation_maintenance_record: DPF-PFR.md
-pilot_selected_patterns: [AL.P.001, AL.P.002, AL.P.003, AL.P.004, AL.P.005, AL.P.006, AL.P.007, AL.P.008, AL.P.009]
+pilot_selected_patterns: [AL.P.001, AL.P.002, AL.P.003, AL.P.004, AL.P.005, AL.P.006, AL.P.007, AL.P.008, AL.P.009, AL.P.010]
 public_name: not_selected
 publication_occurrence: not_asserted
 pilot_evaluation_status: admissibleForDeclaredDPFUse
@@ -21,7 +21,7 @@ pilot_evaluation_floor: 3
 spf_template_checked: 2026-07-28
 status: draft
 created: 2026-07-28
-last_updated: 2026-08-19
+last_updated: 2026-08-20
 maintainers:
   - name: Workspace owner
     contact: local
@@ -110,6 +110,7 @@ Pack отвечает на вопросы:
 
 | Date | Change | Author |
 |---|---|---|
+| 2026-08-20 | Added AL.P.010 for choosing and revising an individual educational trajectory; issued pilot edition .9 | Codex |
 | 2026-08-19 | Integrated AL.SOTA.018 into adaptive trajectory, tutoring, work-product and failure-mode guidance; issued pilot edition .8 | Codex |
 | 2026-08-19 | Integrated AL.SOTA.017 into request diagnosis, solution selection, work products and pilot edition .7 | Codex |
 | 2026-08-18 | Accepted all claims on measuring incident learning, implementation, sustainability, recurrence, transfer and AI-assisted incident analysis; added AL.SOTA.016 | Codex |
