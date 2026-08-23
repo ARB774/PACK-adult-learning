@@ -129,6 +129,8 @@ FrameworkPackageManifest@DPF-EDITION-pilot-2026-08-23.15:
     - РП Миграция PACK-adult-learning с SPF на DPF FPF.md:28
     - РП Миграция PACK-adult-learning с SPF на DPF FPF.md:29
     - РП Миграция PACK-adult-learning с SPF на DPF FPF.md:30
+    - РП Миграция PACK-adult-learning с SPF на DPF FPF.md:31
+    - РП Миграция PACK-adult-learning с SPF на DPF FPF.md:32
     - РП Миграция PACK-adult-learning с SPF на DPF FPF.md:33
   refreshPlanOrCurrentnessRefs:
     - DPF-EDITION:9
