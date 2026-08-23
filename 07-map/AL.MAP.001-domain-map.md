@@ -54,7 +54,7 @@ flowchart LR
 | Выбрать и пересматривать индивидуальную траекторию | AL.P.010 (`pilot`) | AL.D.009, AL.M.004, AL.M.005, AL.SOTA.018 → AL.WP.006 |
 | Обеспечить рабочее применение | AL.P.007 (`pilot`) | AL.M.006, AL.SOTA.008, AL.WP.007, AL.WP.008 |
 | Оценить эффект | AL.P.008 (`pilot`) | AL.M.007, AL.WP.005, AL.WP.008 |
-| Построить партнёрскую ДПО | AL.M.008, AL.SOTA.021 | AL.R.001–002, AL.R.004–007 → AL.WP.002, AL.WP.007, AL.WP.008; кандидат AL.P.013 после повторных проб |
+| Построить партнёрскую ДПО | AL.P.013 (`pilot`) | AL.SOTA.021, AL.M.008, AL.R.001–002, AL.R.004–007 → AL.WP.002, AL.WP.007, AL.WP.008 |
 | Проверить силу утверждения | `06-sota/source-register.md` | revision criterion сущности |
 
 ## Quality gates
@@ -82,6 +82,7 @@ flowchart LR
 
 | Date | Change |
 |---|---|
+| 2026-08-23 | Added AL.P.013 as the entry for ecosystem design of partner continuing professional education |
 | 2026-08-23 | Integrated accepted AL.SOTA.021 claims into ecosystem method, roles, work products, distinctions, failure modes and DPF guidance |
 | 2026-08-23 | Added AL.P.012 as the entry for transforming adult experience into verifiable new action |
 | 2026-08-23 | Integrated AL.SOTA.020 into experience, reflection, learning-cycle, work-product, distinction and failure-mode guidance |
