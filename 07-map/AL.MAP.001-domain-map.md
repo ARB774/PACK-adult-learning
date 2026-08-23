@@ -54,7 +54,7 @@ flowchart LR
 | Выбрать и пересматривать индивидуальную траекторию | AL.P.010 (`pilot`) | AL.D.009, AL.M.004, AL.M.005, AL.SOTA.018 → AL.WP.006 |
 | Обеспечить рабочее применение | AL.P.007 (`pilot`) | AL.M.006, AL.SOTA.008, AL.WP.007, AL.WP.008 |
 | Оценить эффект | AL.P.008 (`pilot`) | AL.M.007, AL.WP.005, AL.WP.008 |
-| Построить партнёрскую ДПО | AL.M.008 | роли AL.R.004–R.007 |
+| Построить партнёрскую ДПО | AL.M.008, AL.SOTA.021 | AL.R.001–002, AL.R.004–007 → AL.WP.002, AL.WP.007, AL.WP.008; кандидат AL.P.013 после повторных проб |
 | Проверить силу утверждения | `06-sota/source-register.md` | revision criterion сущности |
 
 ## Quality gates
@@ -76,11 +76,13 @@ flowchart LR
 15. **Request-diagnosis gate:** тема и разрыв выполнения не выданы за образовательную потребность; целевое действие установлено, а способность, возможность и мотивация проверены по достаточным данным.
 16. **Adaptive-trajectory gate:** назван изменяемый компонент, данные, правило, ожидаемый результат и контрольная точка; активность сопровождения и ИИ-рекомендация не выданы за результат.
 17. **Experience-transformation gate:** след события отделён от позднего объяснения; стаж не выдан за экспертизу; есть проверяемая альтернатива и изменённая проба; функции раскрытия, читатели, последствия и предел конфиденциальности известны.
+18. **Partner-configuration gate:** каждый партнёр закрывает необходимый переход; результаты сторон, локальные обязательства, рабочий объект, критерий приёмки, полномочия, данные и сценарий отказа названы; процесс сети не выдан за результат взрослого, а ИИ не назначен владельцем решения.
 
 ## Update log
 
 | Date | Change |
 |---|---|
+| 2026-08-23 | Integrated accepted AL.SOTA.021 claims into ecosystem method, roles, work products, distinctions, failure modes and DPF guidance |
 | 2026-08-23 | Added AL.P.012 as the entry for transforming adult experience into verifiable new action |
 | 2026-08-23 | Integrated AL.SOTA.020 into experience, reflection, learning-cycle, work-product, distinction and failure-mode guidance |
 | 2026-08-23 | Added AL.P.011 as the entry for alignment of learning outcomes, practical tasks and evidence of learning |

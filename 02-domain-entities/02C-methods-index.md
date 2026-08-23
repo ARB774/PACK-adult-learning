@@ -9,7 +9,7 @@
 | [AL.M.005](../03-methods/AL.M.005-tutoring.md) | Тьюторское сопровождение траектории | support | WP.001, WP.006 | current |
 | [AL.M.006](../03-methods/AL.M.006-transfer-design.md) | Проектирование переноса в рабочую практику | transfer | WP.007 | current |
 | [AL.M.007](../03-methods/AL.M.007-effect-evaluation.md) | Оценивание эффектов обучения | evaluation | WP.005, WP.008 | current |
-| [AL.M.008](../03-methods/AL.M.008-ecosystem-dpo.md) | Экосистемное проектирование ДПО | governance | WP.002, WP.007 | hypothesis |
+| [AL.M.008](../03-methods/AL.M.008-ecosystem-dpo.md) | Экосистемное проектирование ДПО | governance | WP.002, WP.007, WP.008 | current-practice |
 
 ## Methods by work product
 

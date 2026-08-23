@@ -85,7 +85,7 @@ Pack отвечает на вопросы:
 | AL.M.005 | Тьюторское сопровождение траектории | M | Помогает удерживать запрос, рефлексию и следующий карьерно-образовательный шаг | draft |
 | AL.M.006 | Проектирование переноса в рабочую практику | M | Встраивает применение, поддержку и проверку результата после обучения | draft |
 | AL.M.007 | Оценивание эффектов обучения | M | Собирает доказательства обучения, поведения и контекстных результатов | draft |
-| AL.M.008 | Экосистемное проектирование ДПО | M | Согласует интересы обучающегося, провайдера, работодателя и партнёров | draft |
+| AL.M.008 | Экосистемное проектирование ДПО | M | Связывает необходимые вклады сторон, проверяемые переходы, полномочия, данные и устойчивость конфигурации | draft |
 | AL.WP.001 | Профиль образовательного запроса | WP | Проверяемое описание цели, опыта, контекста и ограничений | draft |
 | AL.WP.002 | Карта результатов и компетенций | WP | Связывает действия, критерии и доказательства освоения | draft |
 | AL.WP.003 | Архитектура учебного опыта | WP | Отображает последовательность опыта, рефлексии, концептуализации и действия | draft |
@@ -110,6 +110,7 @@ Pack отвечает на вопросы:
 
 | Date | Change | Author |
 |---|---|---|
+| 2026-08-23 | Integrated STH.ECO.CLAIM.001–010 into existing roles, work products, ecosystem method, distinction, characteristic, failure modes, DPF and map; no new role or work product required | Codex |
 | 2026-08-23 | Added AL.P.012 for transforming adult experience into verifiable new action; issued pilot edition .11 | Codex |
 | 2026-08-23 | Re-ran 10 boundary probes after AL.SOTA.020 integration; all passed as internal synthetic checks | Codex |
 | 2026-08-23 | Integrated STH.EXP.CLAIM.001–010 into experience, reflection, learning-cycle, work-product, distinction and failure-mode guidance | Codex |
