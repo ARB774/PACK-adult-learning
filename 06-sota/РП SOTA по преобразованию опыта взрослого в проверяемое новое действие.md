@@ -5,7 +5,7 @@ topic: Преобразование опыта взрослого в прове�
 created: 2026-08-23
 pack_version_reviewed: 0.1.0
 target_entities: [AL.P.012, AL.M.002, AL.OA.002, AL.OA.006, AL.WP.001, AL.WP.003, AL.CHR.004, AL.FM.002, AL.FM.005, AL.FM.008, AL.D.004, AL.D.008, DPF, AL.MAP.001]
-integration_status: integrated
+integration_status: pattern-authored
 accepted_claims: [STH.EXP.CLAIM.001, STH.EXP.CLAIM.002, STH.EXP.CLAIM.003, STH.EXP.CLAIM.004, STH.EXP.CLAIM.005, STH.EXP.CLAIM.006, STH.EXP.CLAIM.007, STH.EXP.CLAIM.008, STH.EXP.CLAIM.009, STH.EXP.CLAIM.010]
 ---
 
@@ -157,4 +157,4 @@ accepted_claims: [STH.EXP.CLAIM.001, STH.EXP.CLAIM.002, STH.EXP.CLAIM.003, STH.E
 
 ## 8. Следующий ход
 
-Десять пограничных проб исходного РП повторены после интеграции; все пройдены на уровне внутренней синтетической проверки. Следующий ход — отдельное решение владельца о сборке полного `AL.P.012` с сохранением границы: независимого человеческого применения ещё нет.
+Десять пограничных проб исходного РП повторены после интеграции; все пройдены на уровне внутренней синтетической проверки. По отдельному решению владельца основание собрано в полный `AL.P.012`; независимого человеческого применения ещё нет.
