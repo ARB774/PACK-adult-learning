@@ -50,7 +50,7 @@ flowchart LR
 | Различить эффект ИИ и освоение | AL.D.011 | AL.SOTA.006, AL.WP.005, AL.WP.008 |
 | Проверить запрос и выбрать тип решения | AL.P.009 (`pilot`) | AL.D.003, AL.SOTA.017, AL.M.001 → AL.WP.001; при подтверждённой образовательной части → AL.WP.002 |
 | Согласовать результат, практическое задание и доказательство освоения | AL.P.011 (`pilot`) | AL.SOTA.019, AL.WP.002–005, AL.M.002, AL.M.003, AL.M.007 |
-| Спроектировать учебный кейс, проблему или симуляцию | AL.SOTA.022, AL.M.003 | AL.P.014 (`candidate`) → AL.WP.004, AL.WP.005 |
+| Спроектировать учебный кейс, проблему или симуляцию | AL.P.014 (`pilot`) | AL.SOTA.022, AL.M.003, AL.R.002–003, AL.R.005 → AL.WP.003–005 |
 | Преобразовать профессиональный опыт в проверяемое новое действие | AL.P.012 (`pilot`) | AL.SOTA.020, AL.OA.002, AL.OA.006, AL.M.002 → AL.WP.003 |
 | Выбрать и пересматривать индивидуальную траекторию | AL.P.010 (`pilot`) | AL.D.009, AL.M.004, AL.M.005, AL.SOTA.018 → AL.WP.006 |
 | Обеспечить рабочее применение | AL.P.007 (`pilot`) | AL.M.006, AL.SOTA.008, AL.WP.007, AL.WP.008 |
@@ -84,6 +84,7 @@ flowchart LR
 
 | Date | Change |
 |---|---|
+| 2026-08-23 | Added AL.P.014 as the entry for problem-, case- and simulation-based learning design |
 | 2026-08-23 | Integrated accepted AL.SOTA.022 claims and working definitions into problem/case method, roles, work products, distinctions, failure modes and DPF guidance |
 | 2026-08-23 | Added AL.P.013 as the entry for ecosystem design of partner continuing professional education |
 | 2026-08-23 | Integrated accepted AL.SOTA.021 claims into ecosystem method, roles, work products, distinctions, failure modes and DPF guidance |
