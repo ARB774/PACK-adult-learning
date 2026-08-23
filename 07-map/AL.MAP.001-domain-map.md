@@ -4,7 +4,7 @@ name: Карта проектирования обучения взрослых
 scope: full-pack
 summary: Навигация от запроса взрослого через учебный опыт к переносу и доказательству эффекта.
 created: 2026-07-28
-last_updated: 2026-08-19
+last_updated: 2026-08-23
 generated: false
 ---
 
@@ -23,7 +23,7 @@ flowchart LR
     M2 --> W3["WP.003 Архитектура опыта"]
     M2 --> W4["WP.004 Практическое задание"]
     W4 --> M3["M.003 Проблемно-кейсовое обучение"]
-    M3 --> W5["WP.005 Рубрика и доказательства"]
+    M3 --> W5["WP.005 Критериальная шкала и доказательства"]
     W4 --> M6["M.006 Перенос"]
     M6 --> W7["WP.007 План переноса"]
     W5 --> M7["M.007 Оценивание эффектов"]
@@ -49,6 +49,7 @@ flowchart LR
 | Доказать научение из ошибки или инцидента | AL.P.001 (`pilot`) | AL.D.007, AL.SOTA.016, AL.M.006, AL.M.007, AL.WP.005, AL.WP.007, AL.WP.008, AL.FM.006, AL.FM.007 |
 | Различить эффект ИИ и освоение | AL.D.011 | AL.SOTA.006, AL.WP.005, AL.WP.008 |
 | Проверить запрос и выбрать тип решения | AL.P.009 (`pilot`) | AL.D.003, AL.SOTA.017, AL.M.001 → AL.WP.001; при подтверждённой образовательной части → AL.WP.002 |
+| Согласовать результат, практическое задание и доказательство освоения | AL.P.011 (`pilot`) | AL.SOTA.019, AL.WP.002–005, AL.M.002, AL.M.003, AL.M.007 |
 | Выбрать и пересматривать индивидуальную траекторию | AL.P.010 (`pilot`) | AL.D.009, AL.M.004, AL.M.005, AL.SOTA.018 → AL.WP.006 |
 | Обеспечить рабочее применение | AL.P.007 (`pilot`) | AL.M.006, AL.SOTA.008, AL.WP.007, AL.WP.008 |
 | Оценить эффект | AL.P.008 (`pilot`) | AL.M.007, AL.WP.005, AL.WP.008 |
@@ -58,7 +59,7 @@ flowchart LR
 ## Quality gates
 
 1. **Request gate:** WP.001 содержит действие, контекст и авторство цели.
-2. **Alignment gate:** результат, практика и доказательство трассируются друг к другу.
+2. **Alignment gate:** результат, практика и доказательство связаны моделями способности, доказательства и задания; уровень действия, выборка задач, режим поддержки, индивидуальность вывода и последствия решения названы.
 3. **Adult-learning gate:** опыт и готовность к самостоятельности реально диагностированы.
 4. **Safety gate:** проблематизация, обратная связь и сбор данных имеют границы и право отказа; комментарий о личности не подменяет данные о задаче, процессе и саморегуляции.
 5. **Transfer gate:** среда применения и ответственность сторон подтверждены, а вывод о переносе опирается не только на самоотчёт и учитывает тип рабочего действия.
@@ -78,6 +79,8 @@ flowchart LR
 
 | Date | Change |
 |---|---|
+| 2026-08-23 | Added AL.P.011 as the entry for alignment of learning outcomes, practical tasks and evidence of learning |
+| 2026-08-20 | Opened and integrated AL.SOTA.019 for alignment of outcomes, practical tasks and evidence of learning |
 | 2026-08-20 | Added AL.P.010 as the entry for choosing and revising an individual educational trajectory |
 | 2026-08-18 | Integrated AL.SOTA.016 into incident-learning measurement, implementation evidence, sustainability and transfer |
 | 2026-08-19 | Integrated AL.SOTA.017 into request diagnosis, solution selection and evidence products |
