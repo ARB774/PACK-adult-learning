@@ -110,6 +110,7 @@ Pack отвечает на вопросы:
 
 | Date | Change | Author |
 |---|---|---|
+| 2026-08-23 | Formulated STH.EXP.CLAIM.001–010 for owner review in AL.SOTA.020 | Codex |
 | 2026-08-23 | Extended AL.SOTA.020 to 26 sources with confidentiality, mandatory reflection and safe-disclosure evidence | Codex |
 | 2026-08-23 | Opened AL.SOTA.020 on transforming adult experience into verifiable new action; collected 18 scientific sources | Codex |
 | 2026-08-23 | Added AL.P.011 for alignment of learning outcomes, practical tasks and evidence of learning; issued pilot edition .10 | Codex |
