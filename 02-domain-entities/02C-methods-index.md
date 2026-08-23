@@ -4,7 +4,7 @@
 |---|---|---|---|---|
 | [AL.M.001](../03-methods/AL.M.001-request-diagnosis.md) | Диагностика образовательного запроса | design | WP.001, WP.002 | current |
 | [AL.M.002](../03-methods/AL.M.002-experience-reflection-action.md) | Проектирование цикла «опыт — осмысление — действие» | design/facilitation | WP.003, WP.004 | current |
-| [AL.M.003](../03-methods/AL.M.003-problem-case-learning.md) | Проблемно-кейсовое обучение | facilitation | WP.004, WP.005 | current |
+| [AL.M.003](../03-methods/AL.M.003-problem-case-learning.md) | Проблемно-кейсовое обучение | facilitation | WP.004, WP.005 | current-practice |
 | [AL.M.004](../03-methods/AL.M.004-self-directed-support.md) | Поддержка самонаправленного обучения | support | WP.006 | current |
 | [AL.M.005](../03-methods/AL.M.005-tutoring.md) | Тьюторское сопровождение траектории | support | WP.001, WP.006 | current |
 | [AL.M.006](../03-methods/AL.M.006-transfer-design.md) | Проектирование переноса в рабочую практику | transfer | WP.007 | current |
