@@ -1,6 +1,6 @@
 ---
 name: РП SOTA по экосистемному проектированию партнёрской ДПО
-status: open
+status: pattern-authored
 topic: Экосистемное проектирование партнёрской ДПО
 created: 2026-08-23
 pack_version_reviewed: 0.1.0

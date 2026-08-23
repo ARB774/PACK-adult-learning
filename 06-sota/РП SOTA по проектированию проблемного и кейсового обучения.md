@@ -1,6 +1,6 @@
 ---
 name: РП SOTA по проектированию проблемного и кейсового обучения
-status: open
+status: pattern-authored
 topic: Проектирование проблемного и кейсового обучения
 created: 2026-08-23
 pack_version_reviewed: 0.1.0
