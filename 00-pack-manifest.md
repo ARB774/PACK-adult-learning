@@ -71,7 +71,7 @@ Pack отвечает на вопросы:
 | Work products | 8 | draft |
 | Failure modes | 10 | draft |
 | Characteristics | 7 | draft |
-| SoTA annotations/source groups | 19 | draft |
+| SoTA annotations/source groups | 20 | draft |
 | Maps | 1 | draft |
 
 ## Entity index
@@ -110,6 +110,7 @@ Pack отвечает на вопросы:
 
 | Date | Change | Author |
 |---|---|---|
+| 2026-08-23 | Opened AL.SOTA.020 on transforming adult experience into verifiable new action; collected 18 scientific sources | Codex |
 | 2026-08-23 | Added AL.P.011 for alignment of learning outcomes, practical tasks and evidence of learning; issued pilot edition .10 | Codex |
 | 2026-08-20 | Opened and integrated AL.SOTA.019 on alignment of learning outcomes, practical tasks and evidence of learning; accepted 10 claims from 18 sources | Codex |
 | 2026-08-20 | Added AL.P.010 for choosing and revising an individual educational trajectory; issued pilot edition .9 | Codex |
