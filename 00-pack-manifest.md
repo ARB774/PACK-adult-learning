@@ -8,10 +8,10 @@ version: 0.1.0
 fpf_edition: 3d098629dc218572089f1890080c17d6f1d9a867
 fpf_edition_date: 2026-08-16
 architecture_decision: DPF-DRR.md
-pilot_edition_ref: DPF-EDITION@pilot-2026-08-23.15
+pilot_edition_ref: DPF-EDITION@pilot-2026-08-24.16
 pilot_edition_record: DPF-EDITION.md
 relation_maintenance_record: DPF-PFR.md
-pilot_selected_patterns: [AL.P.001, AL.P.002, AL.P.003, AL.P.004, AL.P.005, AL.P.006, AL.P.007, AL.P.008, AL.P.009, AL.P.010, AL.P.011, AL.P.012, AL.P.013, AL.P.014, AL.P.015, AL.P.016]
+pilot_selected_patterns: [AL.P.001, AL.P.002, AL.P.003, AL.P.004, AL.P.005, AL.P.006, AL.P.007, AL.P.008, AL.P.009, AL.P.010, AL.P.011, AL.P.012, AL.P.013, AL.P.014, AL.P.015, AL.P.016, AL.P.017]
 public_name: not_selected
 publication_occurrence: not_asserted
 pilot_evaluation_status: admissibleForDeclaredDPFUse
@@ -19,7 +19,7 @@ pilot_evaluation_floor: 3
 spf_template_checked: 2026-07-28
 status: draft
 created: 2026-07-28
-last_updated: 2026-08-23
+last_updated: 2026-08-24
 maintainers:
   - name: Workspace owner
     contact: local
@@ -51,14 +51,14 @@ Pack отвечает на вопросы:
 ## Content summary
 | Section | Count | Status |
 |---|---:|---|
-| Distinctions | 12 | draft |
+| Distinctions | 13 | draft |
 | Roles | 7 | draft |
-| Objects of attention | 9 | draft |
-| Methods | 8 | draft |
-| Work products | 8 | draft |
+| Objects of attention | 10 | draft |
+| Methods | 9 | draft |
+| Work products | 9 | draft |
 | Failure modes | 10 | draft |
-| Characteristics | 7 | draft |
-| SoTA annotations/source groups | 21 | draft |
+| Characteristics | 8 | draft |
+| SoTA annotations/source groups | 24 | draft |
 | Maps | 1 | draft |
 ## Entity index
 | ID | Name | Kind | Summary | Status |
@@ -71,6 +71,7 @@ Pack отвечает на вопросы:
 | AL.M.006 | Проектирование переноса в рабочую практику | M | Встраивает применение, поддержку и проверку результата после обучения | draft |
 | AL.M.007 | Оценивание эффектов обучения | M | Собирает доказательства обучения, поведения и контекстных результатов | draft |
 | AL.M.008 | Экосистемное проектирование ДПО | M | Связывает необходимые вклады сторон, проверяемые переходы, полномочия, данные и устойчивость конфигурации | draft |
+| AL.M.009 | Проектирование развивающего перехода | M | Связывает пересмотр основания с авторизованной пробой, изменением «Я — Мы — Это» и проверкой жизнеспособности | draft |
 | AL.WP.001 | Профиль образовательного запроса | WP | Проверяемое описание цели, опыта, контекста и ограничений | draft |
 | AL.WP.002 | Карта результатов и компетенций | WP | Связывает действия, критерии и доказательства освоения | draft |
 | AL.WP.003 | Архитектура учебного опыта | WP | Отображает последовательность опыта, рефлексии, концептуализации и действия | draft |
@@ -79,6 +80,7 @@ Pack отвечает на вопросы:
 | AL.WP.006 | План индивидуальной траектории и сопровождения | WP | Описывает выбор, опоры, контрольные точки и пересмотр маршрута | draft |
 | AL.WP.007 | План переноса в рабочую практику | WP | Фиксирует применение, среду, поддержку и проверку после обучения | draft |
 | AL.WP.008 | Отчёт об эффектах | WP | Сводит данные об участии, освоении, поведении и результатах контекста | draft |
+| AL.WP.009 | Карта развивающего перехода | WP | Описывает основание и его функцию, альтернативу, авторство, мандат, «Я — Мы — Это», жизнеспособность и проверку | draft |
 ## Maturity and gaps
 Версия 0.1 пригодна для поиска, проектной ориентации и подготовки следующих итераций. Для статуса `active` нужны:
 1. экспертная проверка практиками ДПО и корпоративного обучения;
@@ -88,6 +90,8 @@ Pack отвечает на вопросы:
 5. апробация рабочих продуктов минимум в двух программах;
 6. фиксация метрик до/после и revision criteria по каждой SoTA-аннотации.
 ## Change log
+| 2026-08-24 | Added AL.P.017 for designing a developmental transition; issued pilot edition .16 | Codex |
+| 2026-08-24 | Integrated 22 accepted Developmental Andragogy claims as AL.SOTA.024; added AL.D.013, AL.M.009 and AL.WP.009; corrected SoTA count to 24 | Codex |
 | Date | Change | Author |
 |---|---|---|
 | 2026-08-23 | Added AL.P.016 for assessing acquired capability with AI; issued pilot edition .15 | Codex |

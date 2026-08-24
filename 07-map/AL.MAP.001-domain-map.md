@@ -4,7 +4,7 @@ name: Карта проектирования обучения взрослых
 scope: full-pack
 summary: Навигация от запроса взрослого через учебный опыт к переносу и доказательству эффекта.
 created: 2026-07-28
-last_updated: 2026-08-23
+last_updated: 2026-08-24
 generated: false
 ---
 
@@ -31,6 +31,10 @@ flowchart LR
     M7 --> W8["WP.008 Отчёт об эффектах"]
     M8["M.008 Экосистемное ДПО"] -. согласует .-> W2
     M8 -. обеспечивает среду .-> W7
+    W2 --> M9["M.009 Развивающий переход"]
+    M9 --> W9["WP.009 Карта развивающего перехода"]
+    W9 --> M6
+    W9 --> M7
 ```
 
 ## Navigation
@@ -56,6 +60,7 @@ flowchart LR
 | Обеспечить рабочее применение | AL.P.007 (`pilot`) | AL.M.006, AL.SOTA.008, AL.WP.007, AL.WP.008 |
 | Оценить эффект | AL.P.008 (`pilot`) | AL.M.007, AL.WP.005, AL.WP.008 |
 | Построить партнёрскую ДПО | AL.P.013 (`pilot`) | AL.SOTA.021, AL.M.008, AL.R.001–002, AL.R.004–007 → AL.WP.002, AL.WP.007, AL.WP.008 |
+| Спроектировать развивающий переход | AL.P.017 (`pilot`) | AL.SOTA.024, AL.D.013, AL.M.009, AL.R.001–003, AL.R.005–007 → AL.WP.009 → AL.WP.003–005, AL.WP.007–008 |
 | Проверить силу утверждения | `06-sota/source-register.md` | revision criterion сущности |
 
 ## Quality gates
@@ -80,11 +85,14 @@ flowchart LR
 17. **Experience-transformation gate:** след события отделён от позднего объяснения; стаж не выдан за экспертизу; есть проверяемая альтернатива и изменённая проба; функции раскрытия, читатели, последствия и предел конфиденциальности известны.
 18. **Partner-configuration gate:** каждый партнёр закрывает необходимый переход; результаты сторон, локальные обязательства, рабочий объект, критерий приёмки, полномочия, данные и сценарий отказа названы; процесс сети не выдан за результат взрослого, а ИИ не назначен владельцем решения.
 19. **Problem-case gate:** вид конструкции назван по действию и реакции среды; существенные признаки меняют решение; информационный режим и поддержка функциональны; совместный продукт имеет индивидуальный след; разбор ведёт к новой пробе; выборка, симуляция и ИИ имеют явные границы вывода.
+20. **Development gate:** освоение, совершенствование и развитие различены; для развития названы основание и его функция, авторство, мандат, «Я — Мы — Это», жизнеспособность, рабочая проба, возврат в среду и граница вклада программы.
 
 ## Update log
 
 | Date | Change |
 |---|---|
+| 2026-08-24 | Added AL.P.017 as the entry for designing a developmental transition |
+| 2026-08-24 | Integrated AL.SOTA.024; added navigation for AL.D.013, AL.M.009, AL.WP.009 and the development gate |
 | 2026-08-23 | Added navigation for full `AL.P.016` and included it in the sixteen-pattern pilot edition |
 | 2026-08-23 | Integrated `STH.AIC.CLAIM.001–010`: expanded AI-supported capability distinction, roles, evidence products, failure modes and AI-support gate; no new roles or work products required |
 | 2026-08-23 | Added AL.P.015 as the entry for safe questions, warning and closed-loop escalation |

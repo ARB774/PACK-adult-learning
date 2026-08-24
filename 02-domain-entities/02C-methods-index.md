@@ -10,6 +10,7 @@
 | [AL.M.006](../03-methods/AL.M.006-transfer-design.md) | Проектирование переноса в рабочую практику | transfer | WP.007 | current |
 | [AL.M.007](../03-methods/AL.M.007-effect-evaluation.md) | Оценивание эффектов обучения | evaluation | WP.005, WP.008 | current |
 | [AL.M.008](../03-methods/AL.M.008-ecosystem-dpo.md) | Экосистемное проектирование ДПО | governance | WP.002, WP.007, WP.008 | current-practice |
+| [AL.M.009](../03-methods/AL.M.009-developmental-transition.md) | Проектирование развивающего перехода | design/transfer | WP.009 | current |
 
 ## Methods by work product
 
@@ -23,4 +24,5 @@
 | AL.WP.006 | AL.M.004, AL.M.005 |
 | AL.WP.007 | AL.M.006, AL.M.008 |
 | AL.WP.008 | AL.M.007 |
+| AL.WP.009 | AL.M.009 |
 
