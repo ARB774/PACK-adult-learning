@@ -8,10 +8,10 @@ version: 0.1.0
 fpf_edition: 3d098629dc218572089f1890080c17d6f1d9a867
 fpf_edition_date: 2026-08-16
 architecture_decision: DPF-DRR.md
-pilot_edition_ref: DPF-EDITION@pilot-2026-08-23.14
+pilot_edition_ref: DPF-EDITION@pilot-2026-08-23.15
 pilot_edition_record: DPF-EDITION.md
 relation_maintenance_record: DPF-PFR.md
-pilot_selected_patterns: [AL.P.001, AL.P.002, AL.P.003, AL.P.004, AL.P.005, AL.P.006, AL.P.007, AL.P.008, AL.P.009, AL.P.010, AL.P.011, AL.P.012, AL.P.013, AL.P.014, AL.P.015]
+pilot_selected_patterns: [AL.P.001, AL.P.002, AL.P.003, AL.P.004, AL.P.005, AL.P.006, AL.P.007, AL.P.008, AL.P.009, AL.P.010, AL.P.011, AL.P.012, AL.P.013, AL.P.014, AL.P.015, AL.P.016]
 public_name: not_selected
 publication_occurrence: not_asserted
 pilot_evaluation_status: admissibleForDeclaredDPFUse
@@ -58,7 +58,7 @@ Pack отвечает на вопросы:
 | Work products | 8 | draft |
 | Failure modes | 10 | draft |
 | Characteristics | 7 | draft |
-| SoTA annotations/source groups | 20 | draft |
+| SoTA annotations/source groups | 21 | draft |
 | Maps | 1 | draft |
 ## Entity index
 | ID | Name | Kind | Summary | Status |
@@ -90,6 +90,7 @@ Pack отвечает на вопросы:
 ## Change log
 | Date | Change | Author |
 |---|---|---|
+| 2026-08-23 | Added AL.P.016 for assessing acquired capability with AI; issued pilot edition .15 | Codex |
 | 2026-08-23 | Added AL.P.015 for safe questions, warning and closed-loop escalation; issued pilot edition .14 | Codex |
 | 2026-08-23 | Added AL.P.014 for problem-, case- and simulation-based learning design; issued pilot edition .13 | Codex |
 | 2026-08-23 | Added AL.P.013 for ecosystem design of partner continuing professional education; issued pilot edition .12 | Codex |
