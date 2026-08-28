@@ -8,7 +8,7 @@ version: 0.1.0
 fpf_edition: 3d098629dc218572089f1890080c17d6f1d9a867
 fpf_edition_date: 2026-08-16
 architecture_decision: DPF-DRR.md
-pilot_edition_ref: DPF-EDITION@pilot-2026-08-24.16
+pilot_edition_ref: DPF-EDITION@pilot-2026-08-27.17
 pilot_edition_record: DPF-EDITION.md
 relation_maintenance_record: DPF-PFR.md
 pilot_selected_patterns: [AL.P.001, AL.P.002, AL.P.003, AL.P.004, AL.P.005, AL.P.006, AL.P.007, AL.P.008, AL.P.009, AL.P.010, AL.P.011, AL.P.012, AL.P.013, AL.P.014, AL.P.015, AL.P.016, AL.P.017, AL.P.018]
@@ -98,6 +98,7 @@ Pack отвечает на вопросы:
 5. апробация рабочих продуктов минимум в двух программах;
 6. фиксация метрик до/после и revision criteria по каждой SoTA-аннотации.
 ## Change log
+| 2026-08-28 | Issued pilot edition .17 with AL.P.018; synchronized DPF-EDITION, README and DPF-PFR for 18 patterns | Codex |
 | 2026-08-27 | Reframed the pre-AL.P.009 gate as a cross-Pack router: chronic performance gaps use Pack-ATB; adult-learning receives only the justified action and educational part | Codex |
 | 2026-08-24 | Added AL.P.017 for designing a developmental transition; issued pilot edition .16 | Codex |
 | 2026-08-24 | Integrated 22 accepted Developmental Andragogy claims as AL.SOTA.024; added AL.D.013, AL.M.009 and AL.WP.009; corrected SoTA count to 24 | Codex |
