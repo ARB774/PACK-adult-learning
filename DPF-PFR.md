@@ -8,7 +8,7 @@
 
 ## 2. Прямая зависимость от FPF
 
-`DPF-EDITION@pilot-2026-08-27.17` использует правила авторинга, видов, отношений, качества и пакетной оценки из FPF Левенчука в коммите `3d098629dc218572089f1890080c17d6f1d9a867` как необходимые ограничения для пилотного DPF-авторинга и проверки.
+`DPF-EDITION@pilot-2026-08-27.17` использует правила авторинга, видов, отношений, качества и пакетной оценки из FPF Левенчука в коммите `3f6714ae3235e0d771dce32835be7696f626d2ee` как необходимые ограничения для пилотного DPF-авторинга и проверки.
 
 Без этих правил либо после их содержательно значимого изменения утверждения о соответствии `E.8`, результатах `E.21`, границах предметных видов и пакетной оценке не могут оставаться текущими без повторной проверки. Поэтому пилотная редакция зависит от указанного содержания точной редакции FPF для авторинга и оценки.
 
@@ -22,7 +22,7 @@ FrameworkEditionDependencyRecord@DPF-EDITION-pilot-2026-08-27.17:
   dependencyPredicateClaimRef: E.4.PFR:3.4-framework-edition-dependency-predicate
   directionConstraintClaimRef: E.5.3-domain-to-Core-direction-and-Core-acyclicity
   dependentEditionRef: DPF-EDITION@pilot-2026-08-27.17
-  reliedOnEditionRef: FPF@3d098629dc218572089f1890080c17d6f1d9a867
+  reliedOnEditionRef: FPF@3f6714ae3235e0d771dce32835be7696f626d2ee
   reliedOnContentRefs:
     - E.4.DPF
     - E.4.PFAD
@@ -30,8 +30,10 @@ FrameworkEditionDependencyRecord@DPF-EDITION-pilot-2026-08-27.17:
     - E.4.DPF.DA
     - E.8
     - E.9
+    - E.11.PFP
     - E.21
     - E.24.PUB
+    - G.11
   namedUse: DPF authoring, pattern evaluation and package evaluation
   dependencyDirection: domain_DPF_to_FPF_Core
   dependencyReason: a relevant change to selected Core rules invalidates or reopens affected authoring and evaluation claims
@@ -115,6 +117,7 @@ FrameworkPackageManifest@DPF-EDITION-pilot-2026-08-27.17:
   sourcePackRefs:
     - 06-sota/source-register.md
   qualityEvidenceRefs:
+    - DPF-EDITION.md:8
     - 06-sota/РП SOTA Системная проверка образовательного запроса до выбора целевого действия.md:19
     - РП Миграция PACK-adult-learning с SPF на DPF FPF.md:10.1
     - РП Миграция PACK-adult-learning с SPF на DPF FPF.md:11.2
@@ -149,10 +152,8 @@ FrameworkPackageManifest@DPF-EDITION-pilot-2026-08-27.17:
 
 ## 8. Проверка текущести FPF от 2026-08-28
 
-Обнаружена новая доступная редакция FPF `3f6714ae3235e0d771dce32835be7696f626d2ee`; закреплённая и ранее проверенная редакция этого DPF остаётся `3d098629dc218572089f1890080c17d6f1d9a867`.
+Проверена новая редакция FPF `3f6714ae3235e0d771dce32835be7696f626d2ee` относительно точной редакции `DPF-EDITION@pilot-2026-08-27.17`. Изменения затрагивают используемые правила `E.4.DPF`, `E.4.PFR` и `E.4.DPF.DA`: добавлены `D12DomainProblemFamilyCoverageAdequacy`, `PFM1a` и `PFM12`, расширены требования к общей публикационной форме и уточнена запись точной зависимости.
 
-Новая FPF содержательно меняет используемые этим DPF правила `E.4.DPF`, `E.4.PFR` и `E.4.DPF.DA`: появился обязательный двенадцатый вопрос о покрытии семейств проблем, расширены проверки общей публикационной формы и уточнена запись точной зависимости. Следовательно, pin нельзя обновить без проверки затронутой редакции DPF.
+Внутренний дрейф Pack устранён: `00-pack-manifest.md`, `DPF-EDITION.md`, `README.md` и эта запись согласованы на 18 паттернах и каноническом идентификаторе `DPF-EDITION@pilot-2026-08-27.17`. Повторная проверка `PFM1`–`PFM12` и `D1`–`D12` находится в `DPF-EDITION.md` и сохраняет статус `admissibleForDeclaredDPFUse` только при локальном пороге 3 и прежних границах использования.
 
-Внутренний дрейф Pack устранён: `00-pack-manifest.md`, `DPF-EDITION.md`, `README.md` и эта запись согласованы на 18 паттернах и `DPF-EDITION@pilot-2026-08-27.17`. Это не подтверждает совместимость с новой FPF и не меняет закреплённый `fpf_edition` без отдельной повторной проверки.
-
-Следующий допустимый результат — определить точную текущую редакцию DPF, повторить затронутые проверки `E.4.DPF.DA`, включая `D12` и `PFM1`–`PFM12`, после чего либо подтвердить прежний pin, либо создать новую редакционную границу и обновить прямое утверждение зависимости вместе с `FrameworkEditionDependencyRecord`.
+После этой проверки прямое утверждение зависимости, `FrameworkEditionDependencyRecord`, манифест и читательский вход переведены на новую точную редакцию FPF. Положительная совместимость между двумя редакциями FPF отдельно не заявляется: проверен только названный DPF-use. Следующее изменение любого `reliedOnContentRefs` снова открывает проверку влияния по `G.11`, а не автоматическую смену pin.

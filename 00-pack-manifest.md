@@ -5,8 +5,8 @@ pack_id: AL
 pack_name: Проектирование обучения взрослых и программ ДПО
 pack_name_en: Adult Learning and Continuing Professional Education Design
 version: 0.1.0
-fpf_edition: 3d098629dc218572089f1890080c17d6f1d9a867
-fpf_edition_date: 2026-08-16
+fpf_edition: 3f6714ae3235e0d771dce32835be7696f626d2ee
+fpf_edition_date: 2026-08-27
 architecture_decision: DPF-DRR.md
 pilot_edition_ref: DPF-EDITION@pilot-2026-08-27.17
 pilot_edition_record: DPF-EDITION.md
@@ -19,7 +19,7 @@ pilot_evaluation_floor: 3
 spf_template_checked: 2026-07-28
 status: draft
 created: 2026-07-28
-last_updated: 2026-08-27
+last_updated: 2026-08-28
 maintainers:
   - name: Workspace owner
     contact: local
