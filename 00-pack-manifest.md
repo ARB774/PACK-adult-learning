@@ -8,7 +8,7 @@ version: 0.1.0
 fpf_edition: 3f6714ae3235e0d771dce32835be7696f626d2ee
 fpf_edition_date: 2026-08-27
 architecture_decision: DPF-DRR.md
-pilot_edition_ref: DPF-EDITION@pilot-2026-08-27.17
+pilot_edition_ref: DPF-EDITION@pilot-2026-08-29.18
 pilot_edition_record: DPF-EDITION.md
 relation_maintenance_record: DPF-PFR.md
 pilot_selected_patterns: [AL.P.001, AL.P.002, AL.P.003, AL.P.004, AL.P.005, AL.P.006, AL.P.007, AL.P.008, AL.P.009, AL.P.010, AL.P.011, AL.P.012, AL.P.013, AL.P.014, AL.P.015, AL.P.016, AL.P.017, AL.P.018]
@@ -19,7 +19,7 @@ pilot_evaluation_floor: 3
 spf_template_checked: 2026-07-28
 status: draft
 created: 2026-07-28
-last_updated: 2026-08-28
+last_updated: 2026-08-29
 maintainers:
   - name: Workspace owner
     contact: local
@@ -54,6 +54,7 @@ Pack отвечает на вопросы:
 | Pack | Отношение |
 |---|---|
 | Pack-ATB | При признанном хроническом разрыве результативности предоставляет системную диагностику и разработанное решение; Pack-adult-learning принимает обоснованное изменение действий и проектирует только образовательную часть. Если АТБ неприменима, происхождение основания и маршрут фиксируются явно. |
+| Pack-TOC | `AL.P.001`, `AL.P.008`, `AL.P.012`, `AL.P.015` и прежде всего `AL.P.017` не выявляют ограничивающее убеждение собственным методом. Они передают наблюдаемое расхождение и обе стороны конфликта в Pack-TOC: `TOC.M.003` строит полную тучу, `TOC.M.004` опознаёт кандидата в ограничивающее предположение, `TOC.M.009` проверяет конфликт заявленной и фактической линии действия, а `TOC.D.006` отделяет предположение от элемента тучи. Точная опора: коммит `44c876e1f58b50e61b2625a927890a3791b99532`. |
 ## Content summary
 | Section | Count | Status |
 |---|---:|---|
@@ -87,7 +88,7 @@ Pack отвечает на вопросы:
 | AL.WP.006 | План индивидуальной траектории и сопровождения | WP | Описывает выбор, опоры, контрольные точки и пересмотр маршрута | draft |
 | AL.WP.007 | План переноса в рабочую практику | WP | Фиксирует применение, среду, поддержку и проверку после обучения | draft |
 | AL.WP.008 | Отчёт об эффектах | WP | Сводит данные об участии, освоении, поведении и результатах контекста | draft |
-| AL.WP.009 | Карта развивающего перехода | WP | Описывает основание и его функцию, альтернативу, авторство, мандат, «Я — Мы — Это», жизнеспособность и проверку | draft |
+| AL.WP.009 | Карта развивающего перехода | WP | Описывает глубину результата, основание и его функцию, проверяемый диалог, альтернативу и план, способности, авторство, мандат, пробу, поддержку среды, «Я — Мы — Это», жизнеспособность и уровни результата | draft |
 | AL.WP.010 | Паспорт основания и маршрута образовательного запроса | WP | Трассирует источник системного основания, мандат, образовательную часть, маршрут, риск и неопределённость | draft |
 ## Maturity and gaps
 Версия 0.1 пригодна для поиска, проектной ориентации и подготовки следующих итераций. Для статуса `active` нужны:
@@ -98,6 +99,14 @@ Pack отвечает на вопросы:
 5. апробация рабочих продуктов минимум в двух программах;
 6. фиксация метрик до/после и revision criteria по каждой SoTA-аннотации.
 ## Change log
+| 2026-08-29 | Added STH.DEV.046 and drafted the Action Learning Conversation method passport from the direct five-step workplace procedure by Faller, Marsick and Russell | Codex |
+| 2026-08-29 | Reopened AL.SOTA.024 for method harvesting; registered the Mezirow and Associates 1990 collection as a non-counting navigation container and drafted the first method passport on critical incidents | Codex |
+| 2026-08-29 | Integrated accepted STH.DEV.CLAIM.031–043 into AL.P.003, AL.P.007–008, AL.P.011, AL.P.013–015, AL.P.017, AL.WP.009, DPF and the domain map; no new roles or work products required | Codex |
+| 2026-08-29 | Reopened AL.SOTA.024; added eight primary works by Mezirow and formulated STH.DEV.CLAIM.031–043 on the practical architecture of transformative learning for owner review | Codex |
+| 2026-08-29 | Built AL.P.019 as an Argyris–TOC synthesis candidate and tested its boundary against Pack-TOC | Codex |
+| 2026-08-29 | Superseded AL.P.019 as a duplicate of Pack-TOC, retained its authoring trace, transferred unique safeguards into five active patterns and issued pilot edition .18 with 18 selected patterns | Codex |
+| 2026-08-29 | Expanded AL.SOTA.024 to 33 independent sources and 30 accepted claims with three additional works by Argyris | Codex |
+| 2026-08-29 | Separated source class, evidence profile, adoption status and strategic priority; added explicit revision rules and applied them to AL.SOTA.024 | Codex |
 | 2026-08-28 | Issued pilot edition .17 with AL.P.018; synchronized DPF-EDITION, README and DPF-PFR for 18 patterns | Codex |
 | 2026-08-27 | Reframed the pre-AL.P.009 gate as a cross-Pack router: chronic performance gaps use Pack-ATB; adult-learning receives only the justified action and educational part | Codex |
 | 2026-08-24 | Added AL.P.017 for designing a developmental transition; issued pilot edition .16 | Codex |
