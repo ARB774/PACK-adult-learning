@@ -8,7 +8,7 @@
 
 ## 2. Прямая зависимость от FPF
 
-`DPF-EDITION@pilot-2026-08-29.18` использует правила авторинга, видов, отношений, качества и пакетной оценки из FPF Левенчука в коммите `3f6714ae3235e0d771dce32835be7696f626d2ee` как необходимые ограничения для пилотного DPF-авторинга и проверки.
+`DPF-EDITION@pilot-2026-08-29.18` использует правила авторинга, видов, отношений, качества и пакетной оценки из FPF Левенчука в коммите `72222c13cc1bba009f1ee1f1aca47654db8e5716` как необходимые ограничения для пилотного DPF-авторинга и проверки.
 
 Без этих правил либо после их содержательно значимого изменения утверждения о соответствии `E.8`, результатах `E.21`, границах предметных видов и пакетной оценке не могут оставаться текущими без повторной проверки. Поэтому пилотная редакция зависит от указанного содержания точной редакции FPF для авторинга и оценки.
 
@@ -22,7 +22,7 @@ FrameworkEditionDependencyRecord@DPF-EDITION-pilot-2026-08-29.18:
   dependencyPredicateClaimRef: E.4.PFR:3.4-framework-edition-dependency-predicate
   directionConstraintClaimRef: E.5.3-domain-to-Core-direction-and-Core-acyclicity
   dependentEditionRef: DPF-EDITION@pilot-2026-08-29.18
-  reliedOnEditionRef: FPF@3f6714ae3235e0d771dce32835be7696f626d2ee
+  reliedOnEditionRef: FPF@72222c13cc1bba009f1ee1f1aca47654db8e5716
   reliedOnContentRefs:
     - E.4.DPF
     - E.4.PFAD
@@ -152,9 +152,9 @@ FrameworkPackageManifest@DPF-EDITION-pilot-2026-08-29.18:
 
 Манифест индексирует обслуживаемые ссылки для проверки редакции. Он не является редакцией, выбранным набором, публикацией или доказательством содержащихся утверждений.
 
-## 8. Проверка текущести FPF от 2026-08-28
+## 8. Проверка текущести FPF от 2026-08-30
 
-Проверена редакция FPF `3f6714ae3235e0d771dce32835be7696f626d2ee` относительно точной редакции `DPF-EDITION@pilot-2026-08-29.18`. Используемые правила `E.4.DPF`, `E.4.PFR` и `E.4.DPF.DA`, включая `D12DomainProblemFamilyCoverageAdequacy`, `PFM1a` и `PFM12`, сохраняются как основание новой редакции.
+Проверена редакция FPF `72222c13cc1bba009f1ee1f1aca47654db8e5716` относительно точной редакции `DPF-EDITION@pilot-2026-08-29.18`. Правила `E.4.DPF`, `E.4.PFR` и `E.4.DPF.DA`, включая `D12DomainProblemFamilyCoverageAdequacy`, `PFM1a` и `PFM12`, сохраняются; изменения A.13/A.15.1/F.6 и `ACTUAL-TEMPORAL-STRUCTURE` отражены в онтологической границе Pack.
 
 `00-pack-manifest.md`, `DPF-EDITION.md`, README и эта запись согласованы на 18 выбранных паттернах и каноническом идентификаторе `DPF-EDITION@pilot-2026-08-29.18`. Повторная проверка `PFM1`–`PFM12` и `D1`–`D12` находится в `DPF-EDITION.md` и сохраняет статус `admissibleForDeclaredDPFUse` только при локальном пороге 3 и прежних границах использования.
 

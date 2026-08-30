@@ -5,8 +5,8 @@ pack_id: AL
 pack_name: Проектирование обучения взрослых и программ ДПО
 pack_name_en: Adult Learning and Continuing Professional Education Design
 version: 0.1.0
-fpf_edition: 3f6714ae3235e0d771dce32835be7696f626d2ee
-fpf_edition_date: 2026-08-27
+fpf_edition: 72222c13cc1bba009f1ee1f1aca47654db8e5716
+fpf_edition_date: 2026-08-30
 architecture_decision: DPF-DRR.md
 pilot_edition_ref: DPF-EDITION@pilot-2026-08-29.18
 pilot_edition_record: DPF-EDITION.md
@@ -19,7 +19,7 @@ pilot_evaluation_floor: 3
 spf_template_checked: 2026-07-28
 status: draft
 created: 2026-07-28
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 maintainers:
   - name: Workspace owner
     contact: local
@@ -99,6 +99,10 @@ Pack отвечает на вопросы:
 5. апробация рабочих продуктов минимум в двух программах;
 6. фиксация метрик до/после и revision criteria по каждой SoTA-аннотации.
 ## Change log
+
+| Date | Change | Author |
+|---|---|---|
+| 2026-08-30 | WP-49: synchronized the pilot DPF with FPF `72222c13`; clarified performer/Work/assignment and actual temporal structure without changing the selected pattern set | Codex |
 | 2026-08-29 | Added STH.DEV.046 and drafted the Action Learning Conversation method passport from the direct five-step workplace procedure by Faller, Marsick and Russell | Codex |
 | 2026-08-29 | Reopened AL.SOTA.024 for method harvesting; registered the Mezirow and Associates 1990 collection as a non-counting navigation container and drafted the first method passport on critical incidents | Codex |
 | 2026-08-29 | Integrated accepted STH.DEV.CLAIM.031–043 into AL.P.003, AL.P.007–008, AL.P.011, AL.P.013–015, AL.P.017, AL.WP.009, DPF and the domain map; no new roles or work products required | Codex |
@@ -111,8 +115,6 @@ Pack отвечает на вопросы:
 | 2026-08-27 | Reframed the pre-AL.P.009 gate as a cross-Pack router: chronic performance gaps use Pack-ATB; adult-learning receives only the justified action and educational part | Codex |
 | 2026-08-24 | Added AL.P.017 for designing a developmental transition; issued pilot edition .16 | Codex |
 | 2026-08-24 | Integrated 22 accepted Developmental Andragogy claims as AL.SOTA.024; added AL.D.013, AL.M.009 and AL.WP.009; corrected SoTA count to 24 | Codex |
-| Date | Change | Author |
-|---|---|---|
 | 2026-08-23 | Added AL.P.016 for assessing acquired capability with AI; issued pilot edition .15 | Codex |
 | 2026-08-23 | Added AL.P.015 for safe questions, warning and closed-loop escalation; issued pilot edition .14 | Codex |
 | 2026-08-23 | Added AL.P.014 for problem-, case- and simulation-based learning design; issued pilot edition .13 | Codex |
