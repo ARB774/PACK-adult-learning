@@ -5,8 +5,8 @@ pack_id: AL
 pack_name: Проектирование обучения взрослых и программ ДПО
 pack_name_en: Adult Learning and Continuing Professional Education Design
 version: 0.1.0
-fpf_edition: 72222c13cc1bba009f1ee1f1aca47654db8e5716
-fpf_edition_date: 2026-08-30
+fpf_edition: 3c3f968398a938bc10e83da22d509b7b8f642d83
+fpf_edition_date: 2026-09-02
 architecture_decision: DPF-DRR.md
 pilot_edition_ref: DPF-EDITION@pilot-2026-08-29.18
 pilot_edition_record: DPF-EDITION.md
@@ -19,7 +19,7 @@ pilot_evaluation_floor: 3
 spf_template_checked: 2026-07-28
 status: draft
 created: 2026-07-28
-last_updated: 2026-08-30
+last_updated: 2026-09-02
 maintainers:
   - name: Workspace owner
     contact: local
@@ -102,6 +102,7 @@ Pack отвечает на вопросы:
 
 | Date | Change | Author |
 |---|---|---|
+| 2026-09-02 | WP-54: проверено влияние FPF `3c3f968`; архитектура и выбранный набор сохранены, кандидат `E.23.CAE` отложен до отдельной проверки | Codex |
 | 2026-08-30 | WP-49: synchronized the pilot DPF with FPF `72222c13`; clarified performer/Work/assignment and actual temporal structure without changing the selected pattern set | Codex |
 | 2026-08-29 | Added STH.DEV.046 and drafted the Action Learning Conversation method passport from the direct five-step workplace procedure by Faller, Marsick and Russell | Codex |
 | 2026-08-29 | Reopened AL.SOTA.024 for method harvesting; registered the Mezirow and Associates 1990 collection as a non-counting navigation container and drafted the first method passport on critical incidents | Codex |
