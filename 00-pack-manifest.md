@@ -8,10 +8,10 @@ version: 0.1.0
 fpf_edition: 3c3f968398a938bc10e83da22d509b7b8f642d83
 fpf_edition_date: 2026-09-02
 architecture_decision: DPF-DRR.md
-pilot_edition_ref: DPF-EDITION@pilot-2026-08-29.18
+pilot_edition_ref: DPF-EDITION@pilot-2026-08-31.20
 pilot_edition_record: DPF-EDITION.md
 relation_maintenance_record: DPF-PFR.md
-pilot_selected_patterns: [AL.P.001, AL.P.002, AL.P.003, AL.P.004, AL.P.005, AL.P.006, AL.P.007, AL.P.008, AL.P.009, AL.P.010, AL.P.011, AL.P.012, AL.P.013, AL.P.014, AL.P.015, AL.P.016, AL.P.017, AL.P.018]
+pilot_selected_patterns: [AL.P.001, AL.P.002, AL.P.003, AL.P.004, AL.P.005, AL.P.006, AL.P.007, AL.P.008, AL.P.009, AL.P.010, AL.P.011, AL.P.012, AL.P.013, AL.P.014, AL.P.015, AL.P.016, AL.P.017, AL.P.018, AL.P.019, AL.P.020]
 public_name: not_selected
 publication_occurrence: not_asserted
 pilot_evaluation_status: admissibleForDeclaredDPFUse
@@ -103,6 +103,8 @@ Pack отвечает на вопросы:
 | Date | Change | Author |
 |---|---|---|
 | 2026-09-02 | WP-54: проверено влияние FPF `3c3f968`; архитектура и выбранный набор сохранены, кандидат `E.23.CAE` отложен до отдельной проверки | Codex |
+| 2026-08-31 | Added STH.DEV.069, accepted bounded STH.DEV.CLAIM.044, built and boundary-tested AL.P.020 and issued pilot edition .20 with 20 selected patterns | Codex |
+| 2026-08-31 | Reused the released AL.P.019 identifier for the unrelated «Полевые школы» pattern; added ten internal boundary probes and issued pilot edition .19 with 19 selected patterns | Codex |
 | 2026-08-30 | WP-49: synchronized the pilot DPF with FPF `72222c13`; clarified performer/Work/assignment and actual temporal structure without changing the selected pattern set | Codex |
 | 2026-08-29 | Added STH.DEV.046 and drafted the Action Learning Conversation method passport from the direct five-step workplace procedure by Faller, Marsick and Russell | Codex |
 | 2026-08-29 | Reopened AL.SOTA.024 for method harvesting; registered the Mezirow and Associates 1990 collection as a non-counting navigation container and drafted the first method passport on critical incidents | Codex |
