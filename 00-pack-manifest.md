@@ -8,10 +8,10 @@ version: 0.1.0
 fpf_edition: 0d96c59d9795bf742f2100be847dc2d68851b87a
 fpf_edition_date: 2026-09-03
 architecture_decision: DPF-DRR.md
-pilot_edition_ref: DPF-EDITION@pilot-2026-08-31.20
+pilot_edition_ref: DPF-EDITION@pilot-2026-09-04.23
 pilot_edition_record: DPF-EDITION.md
 relation_maintenance_record: DPF-PFR.md
-pilot_selected_patterns: [AL.P.001, AL.P.002, AL.P.003, AL.P.004, AL.P.005, AL.P.006, AL.P.007, AL.P.008, AL.P.009, AL.P.010, AL.P.011, AL.P.012, AL.P.013, AL.P.014, AL.P.015, AL.P.016, AL.P.017, AL.P.018, AL.P.019, AL.P.020]
+pilot_selected_patterns: [AL.P.001, AL.P.002, AL.P.003, AL.P.004, AL.P.005, AL.P.006, AL.P.007, AL.P.008, AL.P.009, AL.P.010, AL.P.011, AL.P.012, AL.P.013, AL.P.014, AL.P.015, AL.P.016, AL.P.017, AL.P.018, AL.P.019, AL.P.020, AL.P.021, AL.P.022, AL.P.023]
 public_name: not_selected
 publication_occurrence: not_asserted
 pilot_evaluation_status: admissibleForDeclaredDPFUse
@@ -19,7 +19,7 @@ pilot_evaluation_floor: 3
 spf_template_checked: 2026-07-28
 status: draft
 created: 2026-07-28
-last_updated: 2026-09-03
+last_updated: 2026-09-04
 maintainers:
   - name: Workspace owner
     contact: local
@@ -106,6 +106,9 @@ Pack отвечает на вопросы:
 
 | Date | Change | Author |
 |---|---|---|
+| 2026-09-04 | Built and boundary-tested `AL.P.023 «Коллективное прояснение скрытых условий и отношений власти»`; issued pilot edition `.23` with 23 selected patterns | Codex |
+| 2026-09-04 | Built and boundary-tested `AL.P.022 «Рефлексивное участие ради социального изменения»`; issued pilot edition `.22` with 22 selected patterns | Codex |
+| 2026-09-04 | Built and boundary-tested `AL.P.021 «Совместное исследование практики»`; issued pilot edition `.21` with 21 selected patterns | Codex |
 | 2026-09-03 | WP-56: редакция повторно проверена относительно FPF `0d96c59`; маршрутизатор дополнен выходами в PSD и OCE без изменения выбранного набора из 20 паттернов | Codex |
 | 2026-09-02 | WP-54: проверено влияние FPF `3c3f968`; архитектура и выбранный набор сохранены, кандидат `E.23.CAE` отложен до отдельной проверки | Codex |
 | 2026-08-31 | Added STH.DEV.069, accepted bounded STH.DEV.CLAIM.044, built and boundary-tested AL.P.020 and issued pilot edition .20 with 20 selected patterns | Codex |
