@@ -8,10 +8,10 @@ version: 0.1.0
 fpf_edition: 0d96c59d9795bf742f2100be847dc2d68851b87a
 fpf_edition_date: 2026-09-03
 architecture_decision: DPF-DRR.md
-pilot_edition_ref: DPF-EDITION@pilot-2026-09-04.23
+pilot_edition_ref: DPF-EDITION@pilot-2026-09-04.24
 pilot_edition_record: DPF-EDITION.md
 relation_maintenance_record: DPF-PFR.md
-pilot_selected_patterns: [AL.P.001, AL.P.002, AL.P.003, AL.P.004, AL.P.005, AL.P.006, AL.P.007, AL.P.008, AL.P.009, AL.P.010, AL.P.011, AL.P.012, AL.P.013, AL.P.014, AL.P.015, AL.P.016, AL.P.017, AL.P.018, AL.P.019, AL.P.020, AL.P.021, AL.P.022, AL.P.023]
+pilot_selected_patterns: [AL.P.001, AL.P.002, AL.P.003, AL.P.004, AL.P.005, AL.P.006, AL.P.007, AL.P.008, AL.P.009, AL.P.010, AL.P.011, AL.P.012, AL.P.013, AL.P.014, AL.P.015, AL.P.016, AL.P.017, AL.P.018, AL.P.019, AL.P.020, AL.P.021, AL.P.022, AL.P.023, AL.P.024]
 public_name: not_selected
 publication_occurrence: not_asserted
 pilot_evaluation_status: admissibleForDeclaredDPFUse
@@ -69,7 +69,7 @@ Pack отвечает на вопросы:
 | Work products | 10 | draft |
 | Failure modes | 10 | draft |
 | Characteristics | 8 | draft |
-| SoTA annotations/source groups | 25 | draft |
+| SoTA annotations/source groups | 26 | draft |
 | Maps | 1 | draft |
 ## Entity index
 | ID | Name | Kind | Summary | Status |
@@ -106,6 +106,8 @@ Pack отвечает на вопросы:
 
 | Date | Change | Author |
 |---|---|---|
+| 2026-09-04 | Opened AL.SOTA.026 and harvested 23 sources on expansive learning and Change Laboratory, including incomplete interventions and sustainability limits | Codex |
+| 2026-09-04 | Built and boundary-tested `AL.P.024 «Интеграция личной и социальной идеологии»`; issued pilot edition `.24` with 24 selected patterns | Codex |
 | 2026-09-04 | Built and boundary-tested `AL.P.023 «Коллективное прояснение скрытых условий и отношений власти»`; issued pilot edition `.23` with 23 selected patterns | Codex |
 | 2026-09-04 | Built and boundary-tested `AL.P.022 «Рефлексивное участие ради социального изменения»`; issued pilot edition `.22` with 22 selected patterns | Codex |
 | 2026-09-04 | Built and boundary-tested `AL.P.021 «Совместное исследование практики»`; issued pilot edition `.21` with 21 selected patterns | Codex |
