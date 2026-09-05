@@ -8,7 +8,7 @@
 
 ## 2. Прямая зависимость от FPF
 
-`DPF-EDITION@pilot-2026-09-04.24` использует правила авторинга, видов, отношений, качества и пакетной оценки из FPF Левенчука в коммите `0d96c59d9795bf742f2100be847dc2d68851b87a` как необходимые ограничения для пилотного DPF-авторинга и проверки.
+`DPF-EDITION@pilot-2026-09-04.24` использует правила авторинга, видов, отношений, качества и пакетной оценки из FPF Левенчука в опубликованном коммите `d7a7123459d158c6d5f0d304d6170c4aa69af71b` как необходимые ограничения для пилотного DPF-авторинга и проверки.
 
 Без этих правил либо после их содержательно значимого изменения утверждения о соответствии `E.8`, результатах `E.21`, границах предметных видов и пакетной оценке не могут оставаться текущими без повторной проверки. Поэтому пилотная редакция зависит от указанного содержания точной редакции FPF для авторинга и оценки.
 
@@ -22,7 +22,7 @@ FrameworkEditionDependencyRecord@DPF-EDITION-pilot-2026-09-04.24:
   dependencyPredicateClaimRef: E.4.PFR:3.4-framework-edition-dependency-predicate
   directionConstraintClaimRef: E.5.3-domain-to-Core-direction-and-Core-acyclicity
   dependentEditionRef: DPF-EDITION@pilot-2026-09-04.24
-  reliedOnEditionRef: FPF@0d96c59d9795bf742f2100be847dc2d68851b87a
+  reliedOnEditionRef: FPF@d7a7123459d158c6d5f0d304d6170c4aa69af71b
   reliedOnContentRefs:
     - E.4.DPF
     - E.4.PFAD
@@ -45,6 +45,29 @@ FrameworkEditionDependencyRecord@DPF-EDITION-pilot-2026-09-04.24:
 Эта запись зеркалирует прямое утверждение раздела 2. Она не доказывает зависимость, совместимость, выполненную проверку или актуальность сама по себе.
 
 ## 4. Прямые отношения пилотных паттернов
+
+### Контракт HCD ↔ PACK-adult-learning
+
+```yaml
+PatternFrameworkRelationRecord@AL-HCD-2026-09-05:
+  relationId: AL-HCD-specialized-adult-learning-handoff
+  sourceRef: DPF-EDITION@pilot-2026-09-04.24
+  targetRef: Human Capability Development Principles Framework — Seventeen-pattern first edition, 4 September 2026
+  relationFunction: specialized-method-and-evidence-handoff
+  governedUse: development of one named adult's capability for representative later Work when an adult-learning mechanism is required
+  dependencyOrEditionEffect: HCD owns the general individual capability-development lifecycle; PACK-adult-learning supplies specialized adult-learning Methods and bounded observations
+  blockedStrongerReading: the Pack does not independently choose the complete programme or qualify general capability, unfamiliar transfer, retention, or tool dependence; HCD does not own collective organizational change by co-listing
+  sourceReturnCondition: return to HCD when programme choice, capability profile, performance, transfer, retention, support dependence, revision, or continuing development changes the decision
+  refreshOrSupersessionCondition: refresh when the HCD first edition, the selected AL pattern set, the Pack scope, or any action-bearing handoff field changes
+```
+
+Рабочая передача HCD → Pack содержит названного взрослого, представительную
+будущую работу, требуемый вклад, квалифицированный объект развития, текущую
+конфигурацию выполнения, условия участия и вопрос выбора специализированного
+метода. Обратная передача содержит adult-learning механизм, требования к опыту,
+авторству, помощи, обратной связи, пробе и безопасности, наблюдения и границы
+вывода. HCD отдельно принимает решение о программе и квалифицирует способность,
+перенос, сохранение и зависимость от поддержки.
 
 `AL.P.001`, `AL.P.002`, `AL.P.003`, `AL.P.004`, `AL.P.005`, `AL.P.006`, `AL.P.007`, `AL.P.008`, `AL.P.009`, `AL.P.010`, `AL.P.011`, `AL.P.012`, `AL.P.013`, `AL.P.014`, `AL.P.015`, `AL.P.016`, `AL.P.017`, `AL.P.018`, `AL.P.019`, `AL.P.020`, `AL.P.021`, `AL.P.022`, `AL.P.023` и `AL.P.024` являются самостоятельными паттернами одного пилотного выбранного набора. Общий обязательный порядок не установлен, кроме явного перехода от `AL.P.018` к `AL.P.009` при положительном или условном допуске, условного маршрута `AL.P.012 → Pack-TOC → AL.P.017` при необходимости пересмотра основания и последующего перехода к `AL.P.020`, когда обычная среда допускает рабочие пробы, либо к `AL.P.019`, когда требуется временная защищённая система.
 
@@ -119,7 +142,8 @@ Git-история сохраняет происхождение файлов, �
 FrameworkPackageManifest@DPF-EDITION-pilot-2026-09-04.24:
   frameworkEditionRef: DPF-EDITION@pilot-2026-09-04.24
   selectedPatternSetResultRef: DPF-EDITION:3
-  relationRecordRefs: []
+  relationRecordRefs:
+    - PatternFrameworkRelationRecord@AL-HCD-2026-09-05
   dependencyAndEditionRecordRefs:
     - FrameworkEditionDependencyRecord@DPF-EDITION-pilot-2026-09-04.24
   editionStatus: admissibleForDeclaredDPFUse
@@ -160,12 +184,12 @@ FrameworkPackageManifest@DPF-EDITION-pilot-2026-09-04.24:
 
 Манифест индексирует обслуживаемые ссылки для проверки редакции. Он не является редакцией, выбранным набором, публикацией или доказательством содержащихся утверждений.
 
-## 8. Проверка текущести FPF от 2026-09-03
+## 8. Проверка текущести FPF и HCD от 2026-09-05
 
-Проверена редакция FPF `0d96c59d9795bf742f2100be847dc2d68851b87a` относительно точной редакции `DPF-EDITION@pilot-2026-09-04.24`. Правила `E.4.DPF`, `E.4.PFAD`, `E.4.PFR` и `E.4.DPF.DA` сохраняют архитектуру Pack: предметный остаток после вычитания FPF и соседних DPF остаётся самостоятельным и направляет практическое действие. Engineering DPF Suite не создаёт зависимости без отдельного отношения Suite. Новые PSD и OCE требуют двух явных выходов маршрутизатора `AL.P.018`/`AL.M.010`, но не меняют предметное ядро; `AL.P.021–024` расширяют выбранный набор четырьмя отдельными рабочими ситуациями.
+Проверена редакция FPF `d7a7123459d158c6d5f0d304d6170c4aa69af71b` и HCD «Seventeen-pattern first edition, 4 September 2026» относительно точной редакции `DPF-EDITION@pilot-2026-09-04.24`. Правила `E.4.DPF`, `E.4.PFAD`, `E.4.PFR` и `E.4.DPF.DA` сохраняют архитектуру Pack только после явного вычитания общего индивидуального контура HCD. Самостоятельный остаток Pack — специализированные методы обучения взрослых и коллективное научение внутри трансформации. Совместное размещение в Engineering DPF Suite само по себе зависимости не создаёт; материальный HCD-контракт заявлен отдельной записью выше.
 
 Новый кандидат `E.23.CAE` различает изменение способности, недоступность поддержки, ошибку выбора применимости, доступ или активацию, адаптацию и исполнение. Он согласуется с границами `AL.P.001`, `AL.P.005`, `AL.P.007`, `AL.P.016` и `AL.P.020`, но не заменяет их предметные методы и не меняет текущий выбранный набор. Его включение как нормативной опоры откладывается до стабилизации и отдельной проверки на случаях Pack.
 
-`00-pack-manifest.md`, `DPF-EDITION.md`, README и эта запись согласованы на 24 выбранных паттернах и каноническом идентификаторе `DPF-EDITION@pilot-2026-09-04.24`. Повторная проверка `PFM1`–`PFM12` и `D1`–`D12` находится в `DPF-EDITION.md` и сохраняет статус `admissibleForDeclaredDPFUse` только при локальном пороге 3 и уточнённых границах передачи в PSD и OCE.
+`00-pack-manifest.md`, `DPF-EDITION.md`, README, карта домена и эта запись согласованы на 24 выбранных паттернах и каноническом идентификаторе `DPF-EDITION@pilot-2026-09-04.24`. Повторная проверка `PFM1`–`PFM12` и `D1`–`D12` находится в `DPF-EDITION.md`: `PFM8` теперь проходит благодаря явному контракту HCD, но совокупный статус остаётся `admissibleForDeclaredDPFUse` при локальном пороге 3.
 
-После этой проверки прямое утверждение зависимости, `FrameworkEditionDependencyRecord`, манифест и читательский вход переведены на новую точную редакцию FPF. Положительная совместимость между двумя редакциями FPF отдельно не заявляется: проверен только названный DPF-use. Следующее изменение любого `reliedOnContentRefs` снова открывает проверку влияния по `G.11`, а не автоматическую смену pin.
+После этой проверки прямое утверждение зависимости, `FrameworkEditionDependencyRecord`, манифест и читательский вход переведены на новую точную редакцию FPF. Положительная совместимость между двумя редакциями FPF отдельно не заявляется: проверен только названный DPF-use. Следующее изменение любого `reliedOnContentRefs` или HCD-контракта снова открывает проверку влияния по `G.11`, а не автоматическую смену pin.
