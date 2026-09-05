@@ -106,6 +106,7 @@ Pack отвечает на вопросы:
 
 | Date | Change | Author |
 |---|---|---|
+| 2026-09-05 | Withdrew `AL.P.025` as a duplicate of Pack-ATB; integrated the educational residue of AL.SOTA.026 into existing routing, developmental and learning-in-transformation entities | Codex |
 | 2026-09-04 | Opened AL.SOTA.026 and harvested 23 sources on expansive learning and Change Laboratory, including incomplete interventions and sustainability limits | Codex |
 | 2026-09-04 | Built and boundary-tested `AL.P.024 «Интеграция личной и социальной идеологии»`; issued pilot edition `.24` with 24 selected patterns | Codex |
 | 2026-09-04 | Built and boundary-tested `AL.P.023 «Коллективное прояснение скрытых условий и отношений власти»`; issued pilot edition `.23` with 23 selected patterns | Codex |
