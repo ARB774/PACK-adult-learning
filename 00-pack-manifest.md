@@ -64,7 +64,7 @@ Pack отвечает на вопросы:
 
 | Pack | Отношение |
 |---|---|
-| Pack-ATB | При признанном хроническом разрыве результативности предоставляет системную диагностику и разработанное решение; Pack-adult-learning принимает обоснованное изменение действий и проектирует только образовательную часть. Если АТБ неприменима, происхождение основания и маршрут фиксируются явно. |
+| Pack-ATB | При признанном хроническом разрыве результативности выступает владельцем заказа на способность: определяет исполнителей, требуемые действия, пересматриваемые основания, изменения контекста и системный результат. Pack-adult-learning принимает этот заказ, проверяет образовательный разрыв, проектирует научение и возвращает раздельные свидетельства способности; неполное или противоречивое требование возвращается в Pack-ATB. |
 | Pack-TOC | `AL.P.001`, `AL.P.008`, `AL.P.012`, `AL.P.015` и прежде всего `AL.P.017` не выявляют ограничивающее убеждение собственным методом. Они передают наблюдаемое расхождение и обе стороны конфликта в Pack-TOC: `TOC.M.003` строит полную тучу, `TOC.M.004` опознаёт кандидата в ограничивающее предположение, `TOC.M.009` проверяет конфликт заявленной и фактической линии действия, а `TOC.D.006` отделяет предположение от элемента тучи. Точная опора: коммит `44c876e1f58b50e61b2625a927890a3791b99532`. |
 | PSD DPF | Получает запрос, когда до образовательной диагностики нужно удержать несколько формулировок проблемы, участников, ценности, альтернативы и неопределённость и подготовить рекомендацию владельцу выбора. Рекомендация не создаёт решение или мандат. |
 | OCE DPF | Получает обоснованную неучебную часть, когда рабочая проба требует изменить роли, полномочия, отношения вкладов или устройство продолжающейся работы. План переноса не заменяет инженерное получение организации. |
@@ -117,6 +117,7 @@ Pack отвечает на вопросы:
 
 | Date | Change | Author |
 |---|---|---|
+| 2026-09-09 | Clarified the Pack-ATB → Pack-AL capability-demand contract: ATB owns required performers and actions; Pack-AL diagnoses the learning gap, designs learning and returns bounded evidence without redefining the business requirement | Codex |
 | 2026-09-09 | Added AL.D.014: separated individual and collective learning from action within current grounds and learning that requires their revision; integrated the distinction into diagnosis, work products, DPF and navigation | Codex |
 | 2026-09-08 | Built and internally boundary-tested `AL.P.027 «Организационно-деятельностная игра»` as `candidate/bounded`; kept it outside the selected 24-pattern edition pending real application | Codex |
 | 2026-09-08 | Integrated accepted `AL.SOTA.027` claims into existing roles and work products without new entities; OAG-specific team functions and products remain local to future `AL.P.027` | Codex |

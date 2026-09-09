@@ -46,6 +46,32 @@ FrameworkEditionDependencyRecord@DPF-EDITION-pilot-2026-09-04.24:
 
 ## 4. Прямые отношения пилотных паттернов
 
+### Контракт Pack-ATB ↔ PACK-adult-learning
+
+```yaml
+PatternFrameworkRelationRecord@ATB-AL-2026-09-09:
+  relationId: ATB-AL-capability-demand-and-learning-evidence-handoff
+  sourceRef: Pack-ATB DPF
+  targetRef: DPF-EDITION@pilot-2026-09-04.24
+  relationFunction: capability-demand-to-learning-and-evidence-return
+  governedUse: learning required by an ATB transformation
+  dependencyOrEditionEffect: Pack-ATB owns required performers, actions, grounds, context changes and system result; PACK-adult-learning owns learning-gap diagnosis, learning architecture and bounded learning evidence
+  blockedStrongerReading: PACK-adult-learning does not choose or silently revise the business action; Pack-ATB does not infer individual or collective learning from implementation or system effect alone
+  sourceReturnCondition: return to Pack-ATB when the required action is incomplete, contradictory, unsupported by mandate or defeated by learning evidence
+  refreshOrSupersessionCondition: refresh when the ATB transformation method, AL.M.001, AL.M.010, AL.P.009, AL.P.018 or an action-bearing handoff field changes
+```
+
+Pack-ATB передаёт границу и цель системы, хронический разрыв, корневой конфликт,
+ограничивающее предположение, решение и ДБР, изменения контекста, заданных
+исполнителей и действия, мандат и риск. Это заказ на способность, а не готовая
+программа и не доказательство учебного дефицита.
+
+PACK-adult-learning проверяет, кому из заданных исполнителей действительно нужно
+индивидуальное или коллективное научение, проектирует его и возвращает
+свидетельства способности, переноса, устойчивости и зависимости от поддержки.
+Он не меняет требуемое бизнесу действие. Обнаруженный дефект требования или
+системного решения возвращается Pack-ATB вместе с данными и границей вывода.
+
 ### Контракт HCD ↔ PACK-adult-learning
 
 ```yaml
