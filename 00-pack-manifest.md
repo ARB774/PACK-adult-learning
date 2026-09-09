@@ -117,6 +117,8 @@ Pack отвечает на вопросы:
 
 | Date | Change | Author |
 |---|---|---|
+| 2026-09-09 | Перестроен выбор деятельностных методов по уровням и семействам; стажировка сохранена самостоятельным методом входа в готовую альтернативную систему с обязательным обратным переносом | Codex |
+| 2026-09-09 | Normalized applicability conditions for activity-based and developmental methods; added a bounded internship route and the method-selection handoff to Pack-ATB | Codex |
 | 2026-09-09 | Clarified the Pack-ATB → Pack-AL capability-demand contract: ATB owns required performers and actions; Pack-AL diagnoses the learning gap, designs learning and returns bounded evidence without redefining the business requirement | Codex |
 | 2026-09-09 | Added AL.D.014: separated individual and collective learning from action within current grounds and learning that requires their revision; integrated the distinction into diagnosis, work products, DPF and navigation | Codex |
 | 2026-09-08 | Built and internally boundary-tested `AL.P.027 «Организационно-деятельностная игра»` as `candidate/bounded`; kept it outside the selected 24-pattern edition pending real application | Codex |

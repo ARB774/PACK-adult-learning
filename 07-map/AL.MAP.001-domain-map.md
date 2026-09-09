@@ -67,6 +67,7 @@ flowchart LR
 | Определить требуемую способность человека, диагностировать ограничение и решить, нужен ли специализированный метод обучения взрослых | HCD.1, HCD.3 | `human capability-demand account` + `qualified intervention target` либо `non-training return` → при необходимости adult-learning в AL.P.009 |
 | Проверить образовательную часть и выбрать тип решения | AL.P.009 (`pilot`) | принять от исходного владельца исполнителей и действия; AL.D.003, AL.SOTA.017, AL.M.001 → проверить разрыв способности и создать AL.WP.001; при подтверждении → AL.WP.002; дефект требования вернуть владельцу |
 | Выбрать вид научения по субъекту результата и отношению к основаниям | AL.D.014 | отдельный взрослый или коллектив × действие в пределах оснований или с их пересмотром → раздельные результаты, методы и доказательства в AL.WP.001–002; для развития → AL.M.009 и AL.WP.009 |
+| Проверить условия применения деятельностного или развивающего метода | DPF §7.10 и раздел `:1.1` выбранного паттерна | отделить общую рамку AL.P.017 и обязательный перенос AL.P.007 от методов; выбрать свою, временную или чужую готовую среду; стажировку сохранить самостоятельным маршрутом ATB.P.010 с картой различий и обратным переносом |
 | Согласовать результат, практическое задание и доказательство освоения | AL.P.011 (`pilot`) | AL.SOTA.019, AL.WP.002–005, AL.M.002, AL.M.003, AL.M.007 |
 | Спроектировать учебный кейс, проблему или симуляцию | AL.P.014 (`pilot`) | AL.SOTA.022, AL.M.003, AL.R.002–003, AL.R.005 → AL.WP.003–005 |
 | Преобразовать профессиональный опыт в проверяемое новое действие | AL.P.012 (`pilot`) | AL.SOTA.020, AL.OA.002, AL.OA.006, AL.M.002 → AL.WP.003 |
@@ -134,11 +135,14 @@ flowchart LR
     получены применимые результаты RMP.1–4, а намерения протокола отделены от
     фактического следа. Анализ, достоверность, синтез знания, освоение человека
     и изменение организации не выводятся из одного исследовательского журнала.
+33. **Method-applicability gate:** деятельностный или развивающий метод выбран только после проверки его обязательных условий, владельцев и свидетельств; отсутствие критического условия ведёт к созданию условия, смене метода или ограничению заявления, а не к сохранению привлекательного названия.
 
 ## Update log
 
 | Date | Change |
 |---|---|
+| 2026-09-09 | Reorganized method selection into cross-cutting layers and navigation families; kept internship as a standalone temporary entry into a ready alternative system with a required return transfer |
+| 2026-09-09 | Added applicability passports for activity-based and developmental methods, including a bounded internship route, and made missing critical conditions a method-selection gate |
 | 2026-09-09 | Clarified Pack-ATB as owner of required performers and actions; Pack-AL now receives a capability demand, diagnoses learning and returns evidence or a defect report |
 | 2026-09-09 | Added AL.D.014 and routed diagnosis through two independent axes: individual versus collective outcome and action within current grounds versus their revision |
 | 2026-09-08 | Built and internally boundary-tested AL.P.027 «Организационно-деятельностная игра» as candidate/bounded; kept it outside the selected 24-pattern edition pending real application |
