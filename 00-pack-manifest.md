@@ -19,7 +19,7 @@ pilot_evaluation_floor: 3
 spf_template_checked: 2026-07-28
 status: draft
 created: 2026-07-28
-last_updated: 2026-09-06
+last_updated: 2026-09-09
 maintainers:
   - name: Workspace owner
     contact: local
@@ -69,17 +69,18 @@ Pack отвечает на вопросы:
 | PSD DPF | Получает запрос, когда до образовательной диагностики нужно удержать несколько формулировок проблемы, участников, ценности, альтернативы и неопределённость и подготовить рекомендацию владельцу выбора. Рекомендация не создаёт решение или мандат. |
 | OCE DPF | Получает обоснованную неучебную часть, когда рабочая проба требует изменить роли, полномочия, отношения вкладов или устройство продолжающейся работы. План переноса не заменяет инженерное получение организации. |
 | HCD DPF | Владеет общим индивидуальным контуром развития способности для представительной будущей работы. Передаёт Pack названного взрослого, требуемый вклад, квалифицированный объект развития, текущую конфигурацию выполнения, условия участия и вопрос выбора специализированного метода. Получает от Pack взрослый образовательный механизм, требования к опыту, авторству, помощи, обратной связи, пробе и безопасности, наблюдения учебного эпизода и ограничения вывода. HCD отдельно принимает решение о программе и квалифицирует способность, перенос, сохранение и зависимость от инструментов. |
+| RMP DPF | Владеет исследовательским результатом: квалифицирует нерешённый вопрос (`RMP.1`), выбирает критикуемый дизайн (`RMP.2`), превращает его в исполнимый протокол (`RMP.3`) и сохраняет проверяемый след фактического исследования (`RMP.4`). Pack владеет обучением взрослых и групп, включая учебные циклы исследования действием. Сбор данных, рефлексия и рабочие пробы не становятся исследованием без отдельного RMP-результата; RMP не устанавливает освоение, перенос или организационное изменение. |
 ## Content summary
 | Section | Count | Status |
 |---|---:|---|
-| Distinctions | 13 | draft |
+| Distinctions | 14 | draft |
 | Roles | 7 | draft |
 | Objects of attention | 10 | draft |
 | Methods | 10 | draft |
 | Work products | 10 | draft |
 | Failure modes | 10 | draft |
 | Characteristics | 8 | draft |
-| SoTA annotations/source groups | 26 | draft |
+| SoTA annotations/source groups | 27 | draft |
 | Maps | 1 | draft |
 ## Entity index
 | ID | Name | Kind | Summary | Status |
@@ -116,6 +117,50 @@ Pack отвечает на вопросы:
 
 | Date | Change | Author |
 |---|---|---|
+| 2026-09-09 | Added AL.D.014: separated individual and collective learning from action within current grounds and learning that requires their revision; integrated the distinction into diagnosis, work products, DPF and navigation | Codex |
+| 2026-09-08 | Built and internally boundary-tested `AL.P.027 «Организационно-деятельностная игра»` as `candidate/bounded`; kept it outside the selected 24-pattern edition pending real application | Codex |
+| 2026-09-08 | Integrated accepted `AL.SOTA.027` claims into existing roles and work products without new entities; OAG-specific team functions and products remain local to future `AL.P.027` | Codex |
+| 2026-09-08 | Confirmed working saturation of `AL.SOTA.027` after owner review: six pattern layers and boundary situations are covered by `STH.ODI.CLAIM.001–034`; four evidence deficits remain and constrain `AL.P.027` to `candidate/bounded` | Codex |
+| 2026-09-08 | Accepted refined `STH.ODI.CLAIM.034` as bounded: the corpus supports a testable OAG pattern candidate, without claims of comparative superiority, guaranteed effect or safety, or reproducibility from description alone; all 34 claims are now reviewed | Codex |
+| 2026-09-08 | Accepted refined `STH.ODI.CLAIM.033` as current practice: OAG classification follows reconstructed method architecture rather than self-label, without treating simpler formats as inferior | Codex |
+| 2026-09-08 | Accepted refined `STH.ODI.CLAIM.032` as bounded: reproducibility and safety depend on the whole team's evidenced capabilities, while no validated universal qualification standard was found | Codex |
+| 2026-09-08 | Accepted refined `STH.ODI.CLAIM.031` as current practice: emotional intensity and induced pressure are not evidence of development; outcomes and adverse effects are checked independently | Codex |
+| 2026-09-08 | Accepted refined `STH.ODI.CLAIM.030` as current practice: known goals, power limits, data use, participation conditions and challenge routes are disclosed to OAG participants | Codex |
+| 2026-09-08 | Accepted refined `STH.ODI.CLAIM.029` as bounded: transfer from the temporary OAG system requires a separately designed external transition, whose sufficient architecture is not established by OAG studies | Codex |
+| 2026-09-08 | Accepted refined `STH.ODI.CLAIM.028` as current practice and defined activity grounds as a cross-domain Pack synthesis checked through reasoned, self-directed and repeated later action | Codex |
+| 2026-09-08 | Accepted refined `STH.ODI.CLAIM.027` as current practice: an OAG product remains a change hypothesis until owned, tried and checked in the external activity system | Codex |
+| 2026-09-08 | Accepted refined `STH.ODI.CLAIM.026` as current practice: client outcome and participant development may diverge, so priorities and independent evidence are agreed before the OAG | Codex |
+| 2026-09-08 | Accepted refined `STH.ODI.CLAIM.025` as current practice: subject, organizational, learning, research and external results require separate claims and evidence | Codex |
+| 2026-09-08 | Accepted refined `STH.ODI.CLAIM.024` as current practice: facilitator influence and content contributions remain explicit, and a fixed answer is not presented as participant co-design | Codex |
+| 2026-09-08 | Accepted refined `STH.ODI.CLAIM.023` as bounded: OAG work processes recur through explicit triggers and products rather than following one universal sequence or arbitrary improvisation | Codex |
+| 2026-09-08 | Accepted refined `STH.ODI.CLAIM.022` as bounded: self-positioning links a participant to an owned position and action but does not create external authority or prove follow-through | Codex |
+| 2026-09-07 | WP-68: extended the RMP ↔ PACK-adult-learning contract to published RMP.3 operationalization and RMP.4 research trace without removing any Pack pattern | Codex |
+| 2026-09-07 | Accepted refined `STH.ODI.CLAIM.021` as current practice: a scheme is a contestable means of joint thinking and choosing action, not decoration or methodologist-given truth | Codex |
+| 2026-09-07 | Accepted refined `STH.ODI.CLAIM.020` as current practice: reflection reconstructs observable work and informs what to change or retain; changed grounds require evidence in later action | Codex |
+| 2026-09-07 | Accepted refined `STH.ODI.CLAIM.019` as bounded: problematizing an established professional way requires material from participants' real activity; work with a case does not prove workplace transformation | Codex |
+| 2026-09-07 | Accepted refined `STH.ODI.CLAIM.018` as current practice: problematization exposes an inadequate way and reframes the problem rather than using emotional intensity or devaluing a participant as evidence | Codex |
+| 2026-09-07 | Accepted renamed `STH.ODI.CLAIM.017` as bounded: organizing-team functions remain explicit even when roles vary or one person combines several functions | Codex |
+| 2026-09-07 | Accepted refined `STH.ODI.CLAIM.016` as bounded: OAG may model future activity while organizing real in-game thought-activity, which does not prove external transfer | Codex |
+| 2026-09-07 | Accepted renamed `STH.ODI.CLAIM.015` as current practice: visible group, plenary and reflection forms do not define OAG without functional continuity | Codex |
+| 2026-09-07 | Accepted refined `STH.ODI.CLAIM.014` as current practice: the OAG program is a controlled and traceably revised process hypothesis, not a script for participant answers | Codex |
+| 2026-09-07 | Accepted refined `STH.ODI.CLAIM.013` as bounded: every classical OAG has a situation-specific organizational design while method invariants remain explicit and reproducible | Codex |
+| 2026-09-07 | Accepted refined `STH.ODI.CLAIM.012` as current practice: OAG is estimated across preparation, delivery and exit work without a universal preparation ratio | Codex |
+| 2026-09-07 | Accepted refined `STH.ODI.CLAIM.011` as current practice: substantive preparation and diagnosis are part of classical OAG but do not predetermine its content result | Codex |
+| 2026-09-07 | Accepted refined `STH.ODI.CLAIM.010` as current practice: OAG composition seeks essential positions, makes absences and proxies explicit, and does not freeze participant positions | Codex |
+| 2026-09-07 | Accepted refined `STH.ODI.CLAIM.009` as current practice: system boundaries are explicit, versioned and revisable within the purpose and authority of the work | Codex |
+| 2026-09-07 | Accepted `STH.ODI.CLAIM.008` as current practice: order, theme, initial situation and problem-in-game are distinct, with traceable and authorized reframing | Codex |
+| 2026-09-07 | Accepted refined `STH.ODI.CLAIM.007` as current practice: OAG organizers may hold hypotheses and govern the process but must preserve openness of the content result | Codex |
+| 2026-09-07 | Accepted refined `STH.ODI.CLAIM.006` as bounded: classical OAG addresses a problem not reducible in advance to a known task, while Pack first checks whether a simpler format suffices | Codex |
+| 2026-09-07 | Accepted refined `STH.ODI.CLAIM.005` as current practice and synchronized ODI claim summaries: individual, collective-work and external-activity changes require separate evidence | Codex |
+| 2026-09-07 | Accepted refined `STH.ODI.CLAIM.004` as bounded: the OAG construction organizes possible collective thought-activity but neither guarantees nor proves its occurrence | Codex |
+| 2026-09-06 | Reframed `STH.ODI.CLAIM.003` close to the SMD source and accepted it as bounded; Pack implications remain explicitly separate | Codex |
+| 2026-09-06 | Accepted refined `STH.ODI.CLAIM.002` as current practice and separated the SMD claim about two functions of a scheme from the Pack verification rule | Codex |
+| 2026-09-06 | Accepted `STH.ODI.CLAIM.001` as bounded: collective thought-activity is a design unit for OAG, not a universal law of cognition | Codex |
+| 2026-09-06 | Refined `STH.ODI.CLAIM.001` as a design stance; added two scientific sources distinguishing distributed joint cognition from the stronger SMD ontology | Codex |
+| 2026-09-06 | Formulated `STH.ODI.CLAIM.001–034` without a preset cap; owner review pending | Codex |
+| 2026-09-06 | Harvested 28 independent works across 12 streams for `AL.SOTA.027`; recorded source independence, coverage, preliminary synthesis and four unresolved evidence gaps | Codex |
+| 2026-09-06 | Opened `AL.SOTA.027` for organizational-activity games, thought-activity and the system of thought-activity; source search and claim review pending | Codex |
+| 2026-09-05 | Built `AL.P.026 «Лаборатория изменений»` as a candidate/bounded named method from AL.SOTA.026 without adding it to the selected 24-pattern edition | Codex |
 | 2026-09-05 | WP-58: implemented the HCD ↔ PACK-adult-learning handoff, narrowed domain ownership and re-evaluated the 24-pattern edition against FPF `d7a7123` | Codex |
 | 2026-09-05 | Withdrew `AL.P.025` as a duplicate of Pack-ATB; integrated the educational residue of AL.SOTA.026 into existing routing, developmental and learning-in-transformation entities | Codex |
 | 2026-09-04 | Opened AL.SOTA.026 and harvested 23 sources on expansive learning and Change Laboratory, including incomplete interventions and sustainability limits | Codex |

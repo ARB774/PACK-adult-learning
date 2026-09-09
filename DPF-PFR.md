@@ -69,6 +69,29 @@ PatternFrameworkRelationRecord@AL-HCD-2026-09-05:
 вывода. HCD отдельно принимает решение о программе и квалифицирует способность,
 перенос, сохранение и зависимость от поддержки.
 
+### Контракт RMP ↔ PACK-adult-learning
+
+```yaml
+PatternFrameworkRelationRecord@AL-RMP-2026-09-07:
+  relationId: AL-RMP-learning-and-research-handoff
+  sourceRef: DPF-EDITION@pilot-2026-09-04.24
+  targetRef: Research Method Practice Principles Framework — RMP.1–RMP.4 preview, 6 September 2026
+  relationFunction: learning-context-and-research-result-handoff
+  governedUse: adult or collective learning work that may also produce a bounded new episteme
+  dependencyOrEditionEffect: PACK-adult-learning owns the learning mechanism and observations; RMP owns question qualification, design selection, operationalization and criticism-ready trace
+  blockedStrongerReading: learning cycles, reflection, data capture or an RMP trace do not establish research analysis, credibility, synthesis, human capability, transfer, causal learning effect or organization change
+  sourceReturnCondition: return to RMP.1 for a changed question, RMP.2 for a defeated design premise, RMP.3 for an unsupported operation and RMP.4 for a missing or unrecoverable trace
+  refreshOrSupersessionCondition: refresh when RMP.1–RMP.4, AL.P.008, AL.P.018–AL.P.021 or an action-bearing handoff field changes
+```
+
+Pack передаёт в RMP конкретный вопрос, предполагаемое использование ответа,
+учебный контекст, текущее состояние знания, конкурирующие объяснения, доступные
+данные, ограничения, риск и полезную точку остановки. RMP возвращает честную
+остановку либо квалифицированный вопрос, дизайн, исполнимый протокол и
+проверяемый след фактической работы. Pack отдельно квалифицирует учебный
+результат; HCD — способность и перенос человека; OCE и предметные владельцы —
+организационное изменение и предметное решение.
+
 `AL.P.001`, `AL.P.002`, `AL.P.003`, `AL.P.004`, `AL.P.005`, `AL.P.006`, `AL.P.007`, `AL.P.008`, `AL.P.009`, `AL.P.010`, `AL.P.011`, `AL.P.012`, `AL.P.013`, `AL.P.014`, `AL.P.015`, `AL.P.016`, `AL.P.017`, `AL.P.018`, `AL.P.019`, `AL.P.020`, `AL.P.021`, `AL.P.022`, `AL.P.023` и `AL.P.024` являются самостоятельными паттернами одного пилотного выбранного набора. Общий обязательный порядок не установлен, кроме явного перехода от `AL.P.018` к `AL.P.009` при положительном или условном допуске, условного маршрута `AL.P.012 → Pack-TOC → AL.P.017` при необходимости пересмотра основания и последующего перехода к `AL.P.020`, когда обычная среда допускает рабочие пробы, либо к `AL.P.019`, когда требуется временная защищённая система.
 
 `AL.P.002` рекомендует обратиться к `AL.P.001` только когда после помощи заявлено научение, устойчивость или перенос, для которых нужна отдельная проверка. Эта рекомендация не утверждает, что помощь была оказана, научение состоялось или применение второго паттерна обязательно.
@@ -144,6 +167,7 @@ FrameworkPackageManifest@DPF-EDITION-pilot-2026-09-04.24:
   selectedPatternSetResultRef: DPF-EDITION:3
   relationRecordRefs:
     - PatternFrameworkRelationRecord@AL-HCD-2026-09-05
+    - PatternFrameworkRelationRecord@AL-RMP-2026-09-07
   dependencyAndEditionRecordRefs:
     - FrameworkEditionDependencyRecord@DPF-EDITION-pilot-2026-09-04.24
   editionStatus: admissibleForDeclaredDPFUse
