@@ -141,6 +141,23 @@ flowchart LR
 
 | Date | Change |
 |---|---|
+| 2026-09-11 | Established mandatory SOTA separation of the source-near claim, source boundary, Pack position and owner decision; corpus synthesis and Pack inference remain explicitly attributed |
+| 2026-09-11 | Accepted STH.KNW.CLAIM.015 as current practice: Knowles's eight process elements form a complete audit map rather than eight mandatory sequential sessions |
+| 2026-09-11 | Accepted source-near STH.KNW.CLAIM.014 as current practice: the adult educator organizes process and resources and helps learning without substituting for the learner's responsibility |
+| 2026-09-11 | Accepted refined STH.KNW.CLAIM.013 as bounded: mutual planning is an andragogical ideal adapted when sponsors specify content or learners cannot yet identify what they need |
+| 2026-09-11 | Accepted source-near STH.KNW.CLAIM.012 as bounded: Knowles uses direct or representative learner participation in planning without treating participation as a guarantee of commitment, learning or transfer |
+| 2026-09-11 | Accepted refined STH.KNW.CLAIM.011 as current practice: diagnostic performance plus feedback may use Knowles's critical incidents, sociodrama, computer games, laboratory exercises or simulations without claiming their comparative superiority |
+| 2026-09-11 | Accepted source-near STH.KNW.CLAIM.010 as bounded: practical adult learning is organized around problems, tasks and performance without prohibiting subject-organized study |
+| 2026-09-11 | Accepted source-near STH.KNW.CLAIM.009 as bounded: readiness is related to emerging life and work tasks, but an objective task does not establish each learner's recognized readiness |
+| 2026-09-11 | Accepted source-near STH.KNW.CLAIM.008 as bounded: Knowles shifts emphasis toward experience-using participatory methods without treating visible activity as proof of learning |
+| 2026-09-11 | Accepted source-near STH.KNW.CLAIM.007 as bounded: adult experience can contribute resources and connections while also stabilizing habits and patterns of thought |
+| 2026-09-11 | Accepted source-near STH.KNW.CLAIM.006 as current practice: Knowles's process prepares adults for participation and realistic expectations when they are accustomed to instructor-led learning |
+| 2026-09-11 | Accepted source-near STH.KNW.CLAIM.005 as current practice: Knowles's three-phase self-diagnosis combines a competence model, diagnostic performance and learner-recognized gap while leaving system justification outside the source claim |
+| 2026-09-11 | Accepted strengthened STH.KNW.CLAIM.004 as current practice: the learner can inspect the required-action-to-result link, while the source domain owns justification of the action |
+| 2026-09-11 | Accepted STH.KNW.CLAIM.003 as current practice: learner autonomy and support are set by the person, task, prior capability and situation, not adult age alone |
+| 2026-09-11 | Accepted STH.KNW.CLAIM.002 as current practice: the six-assumption list is a historical revision, not a closed natural taxonomy |
+| 2026-09-11 | Accepted STH.KNW.CLAIM.001 as current practice: Knowles's six propositions are testable design assumptions, not universal laws about every adult |
+| 2026-09-11 | Opened AL.SOTA.028 on Malcolm Knowles's andragogy; registered 20 sources across 12 streams and drafted STH.KNW.CLAIM.001–026 for owner review without integrating them |
 | 2026-09-09 | Reorganized method selection into cross-cutting layers and navigation families; kept internship as a standalone temporary entry into a ready alternative system with a required return transfer |
 | 2026-09-09 | Added applicability passports for activity-based and developmental methods, including a bounded internship route, and made missing critical conditions a method-selection gate |
 | 2026-09-09 | Clarified Pack-ATB as owner of required performers and actions; Pack-AL now receives a capability demand, diagnoses learning and returns evidence or a defect report |

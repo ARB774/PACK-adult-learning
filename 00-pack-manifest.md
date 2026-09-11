@@ -80,7 +80,7 @@ Pack отвечает на вопросы:
 | Work products | 10 | draft |
 | Failure modes | 10 | draft |
 | Characteristics | 8 | draft |
-| SoTA annotations/source groups | 27 | draft |
+| SoTA annotations/source groups | 28 | draft |
 | Maps | 1 | draft |
 ## Entity index
 | ID | Name | Kind | Summary | Status |
@@ -117,6 +117,23 @@ Pack отвечает на вопросы:
 
 | Date | Change | Author |
 |---|---|---|
+| 2026-09-11 | Established a mandatory SOTA trace: source-near claim, source boundary, Pack position and owner decision are recorded separately; corpus synthesis and Pack inference cannot be attributed to an individual author | Codex |
+| 2026-09-11 | Accepted `STH.KNW.CLAIM.015` as `current-practice`: Knowles's eight process elements form a complete audit map rather than eight mandatory sequential sessions | Codex |
+| 2026-09-11 | Accepted source-near `STH.KNW.CLAIM.014` as `current-practice`: the adult educator organizes process and resources and helps learning without substituting for the learner's responsibility | Codex |
+| 2026-09-11 | Accepted refined `STH.KNW.CLAIM.013` as `bounded`: mutual planning is an andragogical ideal adapted when sponsors specify content or learners cannot yet identify what they need | Codex |
+| 2026-09-11 | Accepted source-near `STH.KNW.CLAIM.012` as `bounded`: Knowles uses direct or representative learner participation in planning without treating participation as a guarantee of commitment, learning or transfer | Codex |
+| 2026-09-11 | Accepted refined `STH.KNW.CLAIM.011` as `current-practice`: diagnostic performance plus feedback may use Knowles's critical incidents, sociodrama, computer games, laboratory exercises or simulations without claiming their comparative superiority | Codex |
+| 2026-09-11 | Accepted source-near `STH.KNW.CLAIM.010` as `bounded`: practical adult learning is organized around problems, tasks and performance without prohibiting subject-organized study | Codex |
+| 2026-09-11 | Accepted source-near `STH.KNW.CLAIM.009` as `bounded`: readiness is related to emerging life and work tasks, but an objective task does not establish each learner's recognized readiness | Codex |
+| 2026-09-11 | Accepted source-near `STH.KNW.CLAIM.008` as `bounded`: Knowles shifts emphasis toward experience-using participatory methods without treating visible activity as proof of learning | Codex |
+| 2026-09-11 | Accepted source-near `STH.KNW.CLAIM.007` as `bounded`: adult experience can contribute resources and connections while also stabilizing habits and patterns of thought | Codex |
+| 2026-09-11 | Accepted source-near `STH.KNW.CLAIM.006` as `current-practice`: Knowles's process prepares adults for participation and realistic expectations when they are accustomed to instructor-led learning | Codex |
+| 2026-09-11 | Accepted source-near `STH.KNW.CLAIM.005` as `current-practice`: Knowles's three-phase self-diagnosis combines a competence model, diagnostic performance and learner-recognized gap while leaving system justification outside the source claim | Codex |
+| 2026-09-11 | Accepted strengthened `STH.KNW.CLAIM.004` as `current-practice`: the learner can inspect the required-action-to-result link, while the source domain owns justification of the action | Codex |
+| 2026-09-11 | Accepted `STH.KNW.CLAIM.003` as `current-practice`: learner autonomy and support are set by the person, task, prior capability and situation, not adult age alone | Codex |
+| 2026-09-11 | Accepted `STH.KNW.CLAIM.002` as `current-practice`: the six-assumption list is a historical revision, not a closed natural taxonomy | Codex |
+| 2026-09-11 | Accepted `STH.KNW.CLAIM.001` as `current-practice`: Knowles's six propositions are testable design assumptions, not universal laws about every adult | Codex |
+| 2026-09-11 | Opened `AL.SOTA.028` on Malcolm Knowles's andragogy; registered 20 sources across 12 streams and drafted `STH.KNW.CLAIM.001–026` for owner review without integrating them | Codex |
 | 2026-09-09 | Перестроен выбор деятельностных методов по уровням и семействам; стажировка сохранена самостоятельным методом входа в готовую альтернативную систему с обязательным обратным переносом | Codex |
 | 2026-09-09 | Normalized applicability conditions for activity-based and developmental methods; added a bounded internship route and the method-selection handoff to Pack-ATB | Codex |
 | 2026-09-09 | Clarified the Pack-ATB → Pack-AL capability-demand contract: ATB owns required performers and actions; Pack-AL diagnoses the learning gap, designs learning and returns bounded evidence without redefining the business requirement | Codex |
