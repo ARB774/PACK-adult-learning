@@ -102,6 +102,13 @@ PatternFrameworkRelationRecord@AL-HCD-2026-09-05:
 вывода. HCD отдельно принимает решение о программе и квалифицирует способность,
 перенос, сохранение и зависимость от поддержки.
 
+Для оценки учебного материала по `HCD.18–HCD.19` Pack передаёт точную редакцию,
+названную аудиторию, задачу, условия использования и помощи, а также
+представительную исходную работу пользователя. HCD возвращает ограничивающий
+дефект, область ремонта либо пробел в данных. После ремонта повторяется только
+затронутое использование. Качество материала, способность человека и эффект
+обучения остаются разными утверждениями.
+
 ### Контракт RMP ↔ PACK-adult-learning
 
 ```yaml
@@ -124,6 +131,41 @@ Pack передаёт в RMP конкретный вопрос, предпола
 проверяемый след фактической работы. Pack отдельно квалифицирует учебный
 результат; HCD — способность и перенос человека; OCE и предметные владельцы —
 организационное изменение и предметное решение.
+
+Полная редакция `RMP.1–RMP.9` расширяет обратную передачу: `RMP.5` ограничивает и
+критикует исследовательский вывод, `RMP.6` выбирает оправданную проверку
+достоверности, `RMP.7` синтезирует корпус с учётом зависимостей и несовместимости,
+`RMP.8` сохраняет, уточняет либо отзывает знание, а `RMP.9` исправляет
+исследовательский метод. Ни один из этих результатов не доказывает освоение,
+перенос или учебный эффект автоматически. Предметный метод обучения остаётся у
+Pack, исследовательский метод — у RMP.
+
+### Контракт ADM ↔ PACK-adult-learning
+
+```yaml
+PatternFrameworkRelationRecord@AL-ADM-2026-09-11:
+  relationId: AL-ADM-learning-and-administrative-service-boundary
+  sourceRef: DPF-EDITION@pilot-2026-09-04.24
+  targetRef: Organization Administration Principles Framework
+  relationFunction: learning-work-and-administrative-service-handoff
+  governedUse: access, consent, appointment, permission and notification required by learning work
+  dependencyOrEditionEffect: PACK-adult-learning owns learning results, architecture and evidence; ADM owns administrative services and their usable outcomes
+  blockedStrongerReading: an administrative record does not prove learning, and learning does not create organizational authority
+  sourceReturnCondition: return to PACK-adult-learning with a usable administrative outcome or an exact refusal reason
+  refreshOrSupersessionCondition: refresh when an applicable policy, role, consent, authority or learning participation condition changes
+```
+
+PACK-adult-learning владеет образовательным результатом, архитектурой научения,
+учебной пробой, обратной связью и свидетельствами освоения и переноса. `ADM`
+владеет учётными записями, доступом, согласиями, назначениями, разрешениями,
+уведомлениями и административными услугами, необходимыми для участия.
+
+Административная запись не доказывает, что человек получил пригодный учебный
+результат, а завершение учебной активности не создаёт полномочий менять правила
+организации. Изменение роли, согласия или политики применяется с установленного
+момента и не переписывает историю уже открытого учебного случая. Pack получает
+от ADM пригодный административный результат либо точную причину отказа и затем
+повторно проверяет доступность учебной архитектуры.
 
 `AL.P.001`, `AL.P.002`, `AL.P.003`, `AL.P.004`, `AL.P.005`, `AL.P.006`, `AL.P.007`, `AL.P.008`, `AL.P.009`, `AL.P.010`, `AL.P.011`, `AL.P.012`, `AL.P.013`, `AL.P.014`, `AL.P.015`, `AL.P.016`, `AL.P.017`, `AL.P.018`, `AL.P.019`, `AL.P.020`, `AL.P.021`, `AL.P.022`, `AL.P.023` и `AL.P.024` являются самостоятельными паттернами одного пилотного выбранного набора. Общий обязательный порядок не установлен, кроме явного перехода от `AL.P.018` к `AL.P.009` при положительном или условном допуске, условного маршрута `AL.P.012 → Pack-TOC → AL.P.017` при необходимости пересмотра основания и последующего перехода к `AL.P.020`, когда обычная среда допускает рабочие пробы, либо к `AL.P.019`, когда требуется временная защищённая система.
 
@@ -201,6 +243,7 @@ FrameworkPackageManifest@DPF-EDITION-pilot-2026-09-04.24:
   relationRecordRefs:
     - PatternFrameworkRelationRecord@AL-HCD-2026-09-05
     - PatternFrameworkRelationRecord@AL-RMP-2026-09-07
+    - PatternFrameworkRelationRecord@AL-ADM-2026-09-11
   dependencyAndEditionRecordRefs:
     - FrameworkEditionDependencyRecord@DPF-EDITION-pilot-2026-09-04.24
   editionStatus: admissibleForDeclaredDPFUse
