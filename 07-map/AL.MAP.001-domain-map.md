@@ -141,6 +141,18 @@ flowchart LR
 
 | Date | Change |
 |---|---|
+| 2026-09-11 | Integrated all 26 accepted Knowles claims into existing roles, methods, work products, patterns and DPF; closed four architectural gaps without adding entities and represented the learning contract as a linked view of existing work products |
+| 2026-09-11 | Accepted STH.KNW.CLAIM.026 as Pack-AL current practice: preserve only the honestly available learner choices in short mandatory corporate programs; all 26 Knowles claims are now reviewed and integration remains pending |
+| 2026-09-11 | Accepted STH.KNW.CLAIM.025 as Pack-AL current practice: retain Knowles's andragogical conditions but add a separate route for testing, changing and enacting activity grounds; organizational causes route to Pack-ATB |
+| 2026-09-11 | Accepted source-near STH.KNW.CLAIM.024 as bounded: Knowles's diagnostic exercises with performance feedback can prepare reconsideration of activity grounds but do not constitute a complete method for changing them |
+| 2026-09-11 | Accepted cross-domain synthesis STH.KNW.CLAIM.023 as current practice: route individual, collective and organizational causes separately instead of assigning every contextual gap to collective learning |
+| 2026-09-11 | Accepted source-near STH.KNW.CLAIM.022 as current practice: Knowles's later pedagogical-andragogical models are selected for situational fit rather than age alone and will be integrated through existing CLAIM.003 |
+| 2026-09-11 | Accepted corpus-synthesis STH.KNW.CLAIM.021 as current practice: an andragogy label does not establish superiority, so evidence use names concrete mechanisms, results and conditions |
+| 2026-09-11 | Accepted STH.KNW.CLAIM.020 as bounded for Knowles's preference for internal motivation and as current practice for Pack-AL's separate requirement to inspect the actual motivational situation |
+| 2026-09-11 | Accepted source-near STH.KNW.CLAIM.019 as current practice: application is planned and rehearsed during learning while actual transfer remains a separate later conclusion |
+| 2026-09-11 | Accepted source-near STH.KNW.CLAIM.018 as current practice: the learner proposes evidence and verification without self-certifying mastery; separately recorded the Pack-AL inference that the contract creates a negotiated learning context |
+| 2026-09-11 | Accepted source-near STH.KNW.CLAIM.017 as current practice: Knowles's five-part learning contract structures a personal learning process without claiming comparative superiority or guaranteed mastery |
+| 2026-09-11 | Accepted source-near STH.KNW.CLAIM.016 as current practice: Knowles's organizational climate is used for learning-process design without treating it as standalone transfer or work-result evidence |
 | 2026-09-11 | Established mandatory SOTA separation of the source-near claim, source boundary, Pack position and owner decision; corpus synthesis and Pack inference remain explicitly attributed |
 | 2026-09-11 | Accepted STH.KNW.CLAIM.015 as current practice: Knowles's eight process elements form a complete audit map rather than eight mandatory sequential sessions |
 | 2026-09-11 | Accepted source-near STH.KNW.CLAIM.014 as current practice: the adult educator organizes process and resources and helps learning without substituting for the learner's responsibility |
