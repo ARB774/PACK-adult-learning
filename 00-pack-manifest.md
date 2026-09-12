@@ -117,6 +117,26 @@ Pack отвечает на вопросы:
 
 | Date | Change | Author |
 |---|---|---|
+| 2026-09-12 | Completed post-integration ODI boundary review with 10 new synthetic cases; all resolved using explicit rules; no entity changes required; same-agent analytical review, not independent or empirical validation; candidate/bounded unchanged | Codex |
+| 2026-09-12 | Integrated ODI supplementary claims 035–043 into AL.P.027, AL.M.002, AL.M.009 and AL.WP.009 using existing architecture; 43 accepted claims; pattern remains candidate/bounded; post-integration boundary tests pending | Codex |
+| 2026-09-12 | Owner accepted plain-language STH.ODI.CLAIM.043 as bounded; all 43 claims accepted; supplementary claims 035–043 await integration | Codex |
+
+| 2026-09-12 | Owner accepted STH.ODI.CLAIM.042 as bounded on mutual determination; source account and Pack rule remain separate; 42 accepted, 1 pending; not yet integrated | Codex |
+
+| 2026-09-12 | Owner accepted STH.ODI.CLAIM.041 as bounded for P. G. Shchedrovitsky's model; 41 accepted, 2 pending; not yet integrated | Codex |
+
+| 2026-09-12 | Owner accepted STH.ODI.CLAIM.040 as bounded; source function and Pack safe adaptation remain separate; 40 accepted, 3 pending; not yet integrated | Codex |
+
+| 2026-09-12 | Owner accepted STH.ODI.CLAIM.039 as bounded for the author's ODI model; 39 accepted, 4 pending; not yet integrated | Codex |
+
+| 2026-09-12 | Owner accepted refined STH.ODI.CLAIM.038 as bounded; distinguished source mechanism from Pack procedure; 38 accepted, 5 pending; not yet integrated | Codex |
+
+| 2026-09-12 | Owner accepted refined STH.ODI.CLAIM.037 as current-practice; distinguished schemed thinking from work coordination and source meaning from Pack concretization; 37 accepted, 6 pending | Codex |
+| 2026-09-12 | Owner accepted STH.ODI.CLAIM.036 as current-practice for use and coordination of multiple representations; 36 accepted, 7 pending; integration pending | Codex |
+| 2026-09-12 | Owner accepted STH.ODI.CLAIM.035 as bounded; recorded separate TOC-cloud comparison as Pack synthesis; 35 accepted, 8 pending, integration pending | Codex |
+| 2026-09-12 | Formulated source-near STH.ODI.CLAIM.035–043 for owner review; 34 accepted and 9 pending claims, 34 works unchanged; no pattern integration | Codex |
+| 2026-09-12 | Added STH.ODI.031–034 and source-fragment comparison to reopened AL.SOTA.027; cycle corpus now 34 works, accepted claims unchanged; procedural saturation remains open | Codex |
+| 2026-09-12 | Reopened AL.SOTA.027 to check source-near mechanisms of schematization, objectivation, positioning and problematization; preserved accepted claims and pattern status; no new cycle or source count change | Codex |
 | 2026-09-12 | Corrected SoTA annotation/source-group count from 28 to 29 to include registered AL.SOTA.029 | Codex |
 | 2026-09-12 | Integrated all 34 accepted Schön claims into existing distinctions, methods, five patterns and work products; preserved 29 current-practice, 4 bounded and 1 modern-AI hypothesis; broader coaching source check remains open; no new entity or pilot-edition claim | Codex |
 | 2026-09-11 | Accepted `STH.SCH.CLAIM.022` as current practice: replace a generic reflection instruction with an explicit object, learner actions, work product, intended change, and next probe | Codex |

@@ -140,12 +140,36 @@ flowchart LR
     и изменение организации не выводятся из одного исследовательского журнала.
 33. **Method-applicability gate:** деятельностный или развивающий метод выбран только после проверки его обязательных условий, владельцев и свидетельств; отсутствие критического условия ведёт к созданию условия, смене метода или ограничению заявления, а не к сохранению привлекательного названия.
 
+## Дополнение маршрута ОДИ после интеграции 035–043
+
+При применении `AL.P.027` используются принятые дополнения `AL.SOTA.027`, `STH.ODI.CLAIM.035–043`. Разные профессиональные представления и их деятельностные основания ведут к работе со схемами и смене опорного изображения объекта; недостаточность средств может потребовать пересмотра постановки. Параллельно уточняются позиции участников и учитываются реакции партнёров. Разбор сохраняет предметное решение отдельно от изменения способа работы. Основной механизм находится в уточнении фазы C `AL.P.027`; общие связи — в `AL.M.009` и `AL.M.002`; фактический след — в `AL.WP.009`, проектирование — в `AL.WP.003`, признаки проверки — в `AL.WP.005`, результаты — в `AL.WP.008`. Это синтез Pack, `current` в принятых границах; паттерн остаётся `candidate/bounded`. Возвраты не превращаются в универсальный календарный алгоритм, групповое согласие и новая схема не заменяют действия и проверки закрепления. Новые сущности не введены.
+
 ## Update log
 
 **Проверка рефлексивной практики (AL.SOTA.029):** раздельно названы рефлексия в действии и после действия, функция пробы, ответ ситуации, промежуточный продукт и следующая попытка. Полезность хода отделена от правильности объяснения. Рефлексивный текст не заменяет выполнение, а новое описание — закреплённое изменение основания. Первичные идеи, позднейшая эмпирика, синтез Pack и ИИ-гипотеза имеют отдельные основания и статусы; общее сопоставление способов наставничества не объявляется проверенным.
 
 | Date | Change |
 |---|---|
+| 2026-09-12 | Completed post-integration ODI review with 10 new synthetic boundary cases; all resolved by explicit rules; no entity correction or evidence upgrade; full reasoning in SOTA RP section 26 |
+| 2026-09-12 | Integrated ODI claims 035–043 into existing pattern, methods and work products; source meaning and Pack synthesis remain separate; post-integration boundary tests pending |
+| 2026-09-12 | Accepted plain-language ODI claim 043 as bounded on reviewing the means and rules of work; supplementary claim review completed; integration pending |
+
+| 2026-09-12 | Accepted ODI claim 042 as bounded on mutual determination; review continues with 043 |
+
+| 2026-09-12 | Accepted ODI claim 041 as bounded on repeated self-determination; preserved P. G. Shchedrovitsky's authorship; review continues with 042 |
+
+| 2026-09-12 | Accepted ODI claim 040 as bounded on conflicts of professional positions and means; review continues with 041 |
+
+| 2026-09-12 | Accepted ODI claim 039 as bounded on parallel cross-cutting processes; review continues with 040 |
+
+| 2026-09-12 | Accepted refined ODI claim 038 as bounded; source mechanism and Pack reconstruction remain separate; review continues with 039 |
+
+| 2026-09-12 | Accepted refined ODI claim 037 on schema-mediated thought-activity, not merely work coordination; review continues with 038 |
+| 2026-09-12 | Accepted ODI supplementary claim 036; source account and Pack application remain separate; review continues with 037 |
+| 2026-09-12 | Accepted ODI supplementary claim 035 with scope boundary and separate TOC comparison; review continues with 036 |
+| 2026-09-12 | Added nine ODI mechanism claims for review in AL.SOTA.027 section 24; source meaning and Pack applications kept separate; review starts at 035 |
+| 2026-09-12 | Recorded source-near ODI mechanism gaps in AL.SOTA.027 section 23; new claim review is the next step, no pattern integration yet |
+| 2026-09-12 | Reopened AL.SOTA.027 for concrete SMD/ODI mechanisms; source search and owner review precede changes to AL.P.027 |
 | 2026-09-12 | Integrated AL.SOTA.029 into existing learning-cycle, coaching, feedback, transfer, alignment, experience and developmental-transition navigation; preserved source scope and open coaching-mode check |
 | 2026-09-11 | Accepted STH.SCH.CLAIM.022 as current practice: the word reflection does not define a reproducible learning method |
 | 2026-09-11 | Accepted STH.SCH.CLAIM.023 as bounded: reflective text alone is insufficient evidence of capability or changed practice |
