@@ -19,7 +19,7 @@ pilot_evaluation_floor: 3
 spf_template_checked: 2026-07-28
 status: draft
 created: 2026-07-28
-last_updated: 2026-09-09
+last_updated: 2026-09-12
 maintainers:
   - name: Workspace owner
     contact: local
@@ -80,7 +80,7 @@ Pack отвечает на вопросы:
 | Work products | 10 | draft |
 | Failure modes | 10 | draft |
 | Characteristics | 8 | draft |
-| SoTA annotations/source groups | 28 | draft |
+| SoTA annotations/source groups | 29 | draft |
 | Maps | 1 | draft |
 ## Entity index
 | ID | Name | Kind | Summary | Status |
@@ -117,6 +117,46 @@ Pack отвечает на вопросы:
 
 | Date | Change | Author |
 |---|---|---|
+| 2026-09-12 | Corrected SoTA annotation/source-group count from 28 to 29 to include registered AL.SOTA.029 | Codex |
+| 2026-09-12 | Integrated all 34 accepted Schön claims into existing distinctions, methods, five patterns and work products; preserved 29 current-practice, 4 bounded and 1 modern-AI hypothesis; broader coaching source check remains open; no new entity or pilot-edition claim | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.022` as current practice: replace a generic reflection instruction with an explicit object, learner actions, work product, intended change, and next probe | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.023` as bounded: reflective writing supports formative feedback but cannot by itself prove acquired capability or changed practice | Codex |
+| 2026-09-12 | Accepted `STH.SCH.CLAIM.034` as current practice: investigate learning binds through reciprocal reflection on interaction, including the coach's assumptions; all 34 claims accepted, primary coaching-mode comparison still open | Codex |
+| 2026-09-12 | Accepted `STH.SCH.CLAIM.033` as current practice: collaborative coaching preserves learner authorship, explores alternative means and evaluates intended qualities within the declared task and source-case boundary | Codex |
+| 2026-09-12 | Accepted `STH.SCH.CLAIM.032` as current practice: reflection-in-action enriches the professional repertoire; preserve Pack's experience-recording proposal as a separate synthesis | Codex |
+| 2026-09-12 | Accepted `STH.SCH.CLAIM.031` as current practice: use prior examples without erasing the new case's uniqueness, test the transferred move in action, and distinguish Pack's teaching questions from Schon's account | Codex |
+| 2026-09-12 | Accepted `STH.SCH.CLAIM.030` as current practice: assess the practical move and its full consequences separately from the explanation; preserve the limits of inference from one trial | Codex |
+| 2026-09-12 | Accepted `STH.SCH.CLAIM.029` as current practice: distinguish exploratory, move-testing and hypothesis-testing functions while preserving their possible combination in one practical move | Codex |
+| 2026-09-12 | Formulated source-near `STH.SCH.CLAIM.029–034` from existing Schon works on experiment functions, outcome logic, repertoire, collaborative coaching and learning binds; 28 accepted, 6 pending, 32 independent works unchanged | Codex |
+| 2026-09-12 | Accepted `STH.SCH.CLAIM.028` as a modern AI-use hypothesis, not Schon's teaching; rechecked saturation and identified method-detail gaps in experimentation, repertoire, and coaching; integration remains pending | Codex |
+| 2026-09-12 | Accepted `STH.SCH.CLAIM.027` as current practice: preserve Argyris and Schon's joint account of double-loop learning and separate Pack's subsequent-action verification requirement | Codex |
+| 2026-09-12 | Accepted `STH.SCH.CLAIM.026` as current practice: reframing opens reconsideration, while action, result verification, and consolidation belong to Pack's synthesis | Codex |
+| 2026-09-12 | Accepted `STH.SCH.CLAIM.025` as current practice: preserve Schon and Rein's public-policy scope and distinguish Pack's application to collective learning | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.024` as bounded: reflective work must guard against rumination and return the learner to evidence, influence, and a safe next action | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.021` as current practice: require speaking safety, authority to change joint work, and a subsequent test for team reflection | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.020` as current practice from later research: treat team reflexivity as joint review and revision of goals, coordination, roles, and work methods | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.019` as current practice: use a compact action–debrief–change–reattempt cycle when action data and a comparable next attempt are available | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.018` as bounded: transfer structured hypothesis comparison as a design hypothesis while retaining the direct evidence boundary in medical diagnosis | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.017` as bounded: reserve extended structured reflection for complex, uncertain, surprising, or competing-explanation cases | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.016` as a Pack-inference current practice: treat changed subsequent action as the main reflection evidence and reflective text as intermediate evidence | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.015` as corpus-synthesis current practice: make critique specific to intent, move, product, consequence, and the next attempt | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.014` as current practice with a domain boundary: specify the work material and perceptual distinctions that guide the next professional move | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.013` as current practice: permit initial imitation as temporary support, then fade the model and test independent choice in a new situation | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.012` as current practice: alternate early attempts with demonstration, explanation, and clarifying dialogue | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.011` as current practice: require a practicum coach to make expert distinctions and moves observable and connect critique to the learner's next attempt | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.010` as current practice: make learner moves, evolving work products, consequences, help, and revisions the practicum material | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.009` as current practice with explicit practicum boundaries: state represented and omitted work conditions and require a workplace transfer probe | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.008` as current practice: develop professional artistry through situated action, observation, dialogue, consequences, and repeated attempts | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.007` as current practice: distinguish reflection during action from reflection after action and test the latter in a subsequent attempt | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.006` as current practice: use observable consequences as the situation's response while testing the practitioner's interpretation | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.005` as current practice: make problem framing and system boundary explicit and testable before evaluating the proposed solution | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.004` as current practice: structure reflection-in-action as reframing followed by a probe and observation of consequences | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.003` as current practice: use observable surprise, not a generic request to reflect, to trigger reflection-in-action | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.002` as current practice: elicit tacit professional knowing from observable action and products without treating intuition as automatically correct | Codex |
+| 2026-09-11 | Accepted `STH.SCH.CLAIM.001` as current practice: technical knowledge is insufficient where the professional must first frame an indeterminate, unique, or conflicted situation | Codex |
+| 2026-09-11 | Formulated `STH.SCH.CLAIM.001–028` from the 32-source Schön corpus without a preset count; separated source claims, joint Argyris–Schön claims, research findings, and Pack inferences | Codex |
+| 2026-09-11 | Harvested 32 independent sources across 12 streams for `AL.SOTA.029`; separated Schön's primary model, joint Argyris–Schön works, empirical tests, critiques, collective reflection, and early AI support | Codex |
+| 2026-09-11 | Opened `AL.SOTA.029` on Donald Schön's reflective practice; separated Schön's own professional-learning line from joint Argyris–Schön work and registered 12 source streams without drafting claims | Codex |
 | 2026-09-11 | Integrated all 26 accepted Knowles claims into existing roles, methods, work products, patterns and DPF; closed four architectural gaps without adding entities and represented the learning contract as a linked view of existing work products | Codex |
 | 2026-09-11 | Accepted `STH.KNW.CLAIM.026` as Pack-AL `current-practice`: preserve only the honestly available learner choices in short mandatory corporate programs; all 26 Knowles claims are now reviewed and integration remains pending | Codex |
 | 2026-09-11 | Accepted `STH.KNW.CLAIM.025` as Pack-AL `current-practice`: retain Knowles's andragogical conditions but add a separate route for testing, changing and enacting activity grounds; organizational causes route to Pack-ATB | Codex |

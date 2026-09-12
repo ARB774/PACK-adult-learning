@@ -4,7 +4,7 @@ name: Карта проектирования обучения взрослых
 scope: full-pack
 summary: Навигация от запроса взрослого через учебный опыт к переносу и доказательству эффекта.
 created: 2026-07-28
-last_updated: 2026-09-09
+last_updated: 2026-09-11
 generated: false
 ---
 
@@ -91,6 +91,9 @@ flowchart LR
 | Вернуть индивидуальные доказательства выполнения, переноса, сохранения и зависимости от ИИ | AL.P.007, AL.P.011, AL.P.016 → HCD.11–13 | HCD квалифицирует итоговый capability-claim; Pack сохраняет только образовательный механизм и наблюдения |
 | Квалифицировать производство нового знания внутри учебной работы | AL.P.008, AL.P.018–021 → RMP.1–4 | RMP возвращает остановку либо исследовательский вопрос, дизайн, исполнимый протокол и проверяемый след; Pack сохраняет учебный механизм, а HCD и OCE — свои результаты |
 
+| Спроектировать рефлексию в действии и после действия с предметным наставником | AL.SOTA.029 → AL.M.002–003, AL.M.005 | AL.P.003, AL.P.011–012 → AL.WP.003–004; функции пробы, ответ ситуации, промежуточные продукты и следующая попытка |
+| Связать переосмысление ситуации с проверкой изменения основания | AL.SOTA.029 → AL.D.013, AL.M.009, AL.P.017 | AL.WP.009; новое описание не равно закреплённому переходу; предметный заказ Pack-АТБ и конфликтующие предположения Pack-TOC |
+
 ## Quality gates
 
 1. **Routing gate:** WP.010 фиксирует происхождение запроса, границу рассматриваемой системы, первое лицо, мандат, тип ситуации и маршрут; хронический разрыв результативности не подменяется локальной диагностикой обучения.
@@ -139,8 +142,49 @@ flowchart LR
 
 ## Update log
 
+**Проверка рефлексивной практики (AL.SOTA.029):** раздельно названы рефлексия в действии и после действия, функция пробы, ответ ситуации, промежуточный продукт и следующая попытка. Полезность хода отделена от правильности объяснения. Рефлексивный текст не заменяет выполнение, а новое описание — закреплённое изменение основания. Первичные идеи, позднейшая эмпирика, синтез Pack и ИИ-гипотеза имеют отдельные основания и статусы; общее сопоставление способов наставничества не объявляется проверенным.
+
 | Date | Change |
 |---|---|
+| 2026-09-12 | Integrated AL.SOTA.029 into existing learning-cycle, coaching, feedback, transfer, alignment, experience and developmental-transition navigation; preserved source scope and open coaching-mode check |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.022 as current practice: the word reflection does not define a reproducible learning method |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.023 as bounded: reflective text alone is insufficient evidence of capability or changed practice |
+| 2026-09-12 | Accepted STH.SCH.CLAIM.034 as current practice: make both sides' interpretations testable and preserve the distinction between actual cases and proposed interventions; all 34 claims reviewed |
+| 2026-09-12 | Accepted STH.SCH.CLAIM.033 as current practice: coach and learner jointly experiment on the learner's intended qualities without replacing the corporate customer's system goal |
+| 2026-09-12 | Accepted STH.SCH.CLAIM.032 as current practice: reflective cases enrich the repertoire for later variations rather than necessarily yielding general rules |
+| 2026-09-12 | Accepted STH.SCH.CLAIM.031 as current practice: seeing and acting through prior examples requires attention to differences and practical testing |
+| 2026-09-12 | Accepted STH.SCH.CLAIM.030 as current practice: distinguish affirmation of a move from confirmation of its underlying explanation |
+| 2026-09-12 | Accepted STH.SCH.CLAIM.029 as current practice: distinguish three experiment functions and keep Pack's learning-design application separate |
+| 2026-09-12 | Formulated STH.SCH.CLAIM.029–034 from primary fragments; distinguished actual coaching case, author interpretation and proposed interventions; broader coaching-mode comparison remains open |
+| 2026-09-12 | Accepted STH.SCH.CLAIM.028 as a separate modern application hypothesis; saturation recheck requires further primary method harvesting before integration |
+| 2026-09-12 | Accepted STH.SCH.CLAIM.027 as current practice: double-loop learning questions governing norms and assumptions, with joint attribution and Pack inference kept explicit |
+| 2026-09-12 | Accepted STH.SCH.CLAIM.026 as current practice: distinguish reframing from a completed and consolidated change of activity grounds |
+| 2026-09-12 | Accepted STH.SCH.CLAIM.025 as current practice: social framing of problems informs collective learning, with source scope and Pack inference kept separate |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.024 as bounded: reflection design must address the risk of rumination without treating it as inevitable |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.021 as current practice: a team review alone is insufficient without safety, change authority, and a later probe |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.020 as current practice: collective action requires reflection on coordination and shared work, not only individual reflection |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.019 as current practice: structured post-action review can support short corporate learning when followed by another attempt |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.018 as bounded: retain evidence-for, evidence-against, alternatives, comparison, decision, and a later probe |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.017 as bounded: do not impose extended reflection on every routine operation |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.016 as Pack-inference current practice: verify reflection by changed framing or action in a later comparable attempt |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.015 as corpus-synthesis current practice: critique the learner's move and product in a form usable in the next attempt |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.014 as current practice: teach domain-specific distinctions in work material rather than generic observation |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.013 as current practice: imitation may precede understanding but must end in faded support and independent transfer |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.012 as current practice: professional explanations gain meaning through an alternating attempt–explanation cycle |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.011 as current practice: coaching must expose expert distinctions and connect product-specific critique to another attempt |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.010 as current practice: retain a trace of learner decisions and work-product revisions across practicum attempts |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.009 as current practice: a reflective practicum must declare its representation limits and connect to a workplace probe |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.008 as current practice: professional artistry requires situated attempts alongside explanation and theory |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.007 as current practice: a retrospective account becomes learning evidence only through its effect on a later attempt |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.006 as current practice: a learning probe must yield consequences capable of confirming or challenging the learner's framing |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.005 as current practice: assess how the learner framed the problem, not only the resulting solution |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.004 as current practice: reflection-in-action continues through a probing move and evidence from its consequences |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.003 as current practice: reflection-in-action begins from an observable mismatch between expectation and outcome |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.002 as current practice: elicit knowing-in-action from observable work and products, then test rather than automatically trust it |
+| 2026-09-11 | Accepted STH.SCH.CLAIM.001 as current practice: open professional situations require problem framing in addition to technical knowledge and known methods |
+| 2026-09-11 | Formulated STH.SCH.CLAIM.001–028 without a preset count; owner review starts with claim 001 |
+| 2026-09-11 | Harvested 32 independent sources across 12 streams for AL.SOTA.029; source search reached working saturation and claim drafting is pending |
+| 2026-09-11 | Opened AL.SOTA.029 on Donald Schön's reflective practice; separated Schön's own professional-learning line from joint Argyris–Schön work and registered 12 source streams without drafting claims |
 | 2026-09-11 | Integrated all 26 accepted Knowles claims into existing roles, methods, work products, patterns and DPF; closed four architectural gaps without adding entities and represented the learning contract as a linked view of existing work products |
 | 2026-09-11 | Accepted STH.KNW.CLAIM.026 as Pack-AL current practice: preserve only the honestly available learner choices in short mandatory corporate programs; all 26 Knowles claims are now reviewed and integration remains pending |
 | 2026-09-11 | Accepted STH.KNW.CLAIM.025 as Pack-AL current practice: retain Knowles's andragogical conditions but add a separate route for testing, changing and enacting activity grounds; organizational causes route to Pack-ATB |
